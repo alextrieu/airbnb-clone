@@ -14,26 +14,34 @@ export default function Card(props) {
       img
   } = props.listing
 
-  // const history = useHistory()
-
-  // const navigate =() => history.push('/room')
-
   const navigate = useNavigate();
 
+  const imageStyle = {
+    backgroundColor: 'none'
+  }
 
+  const [activeImg, setActiveImg] = React.useState(false)
+
+  
 
   return (
-    <div className='card-container'>
+    <div className='card-container' onMouseEnter={() => setActiveImg(true)} onMouseLeave={() => setActiveImg(false)}>
         <div className='card-image'>
           <SimpleImageSlider
             width={300}
             height={290}
             images={img}
             showBullets={true}
-            showNavs={true}
+            showNavs={activeImg}
             navMargin={1}
             navSize={30}
+            style={imageStyle}
+            slideDuration={0.6}
           />
+          <div className='card-overlay'></div>
+          <div className='card-favourite'>
+          <i className="fa-solid fa-heart"></i>
+          </div>
         </div>
         <div className='card-description' onClick={() => navigate('/room')}>
           <div className='card-title'>
