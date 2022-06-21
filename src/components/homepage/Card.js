@@ -2,6 +2,7 @@ import React from 'react'
 import SimpleImageSlider from "react-simple-image-slider";
 
 export default function Card(props) {
+
   const {
       city,
       state, 
@@ -11,6 +12,7 @@ export default function Card(props) {
       rating,
       img
   } = props.listing
+
   return (
     <div className='card-container'>
       <div className='card-image'>
