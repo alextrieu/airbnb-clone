@@ -1,6 +1,27 @@
-.listing-container {
+/* .listing-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
     justify-items: center;
+} */
+
+.listing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+
+
+@media (min-width: 700px) {
+    .listing-container { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1000px) {
+    .listing-container { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1300px) {
+    .listing-container { grid-template-columns: repeat(4, 1fr); }
 }

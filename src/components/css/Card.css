@@ -10,7 +10,10 @@
 
 .card-image div {
     border-radius: 15px;
+    max-width: 100% !important;
+    /* height: auto !important; */
 } 
+
 
 .card-overlay {
     position: absolute;
@@ -60,3 +63,4 @@
 .fa-star {
     margin-left: 3px;
 }
+

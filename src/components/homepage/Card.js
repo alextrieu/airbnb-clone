@@ -22,10 +22,11 @@ export default function Card(props) {
 
   const [activeImg, setActiveImg] = React.useState(false)
 
-  
+
 
   return (
     <div className='card-container' onMouseEnter={() => setActiveImg(true)} onMouseLeave={() => setActiveImg(false)}>
+
         <div className='card-image'>
           <SimpleImageSlider
             width={300}
@@ -43,6 +44,7 @@ export default function Card(props) {
           <i className="fa-solid fa-heart"></i>
           </div>
         </div>
+
         <div className='card-description' onClick={() => navigate('/room')}>
           <div className='card-title'>
             <span className='card-location'>{city}, {state}</span>
@@ -56,6 +58,7 @@ export default function Card(props) {
             <p><span>${price}</span> night</p>
           </div>
         </div>
+        
     </div>
   )
 }
