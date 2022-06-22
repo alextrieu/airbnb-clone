@@ -6,15 +6,21 @@
 } */
 
 .listing-container {
-    width: auto;
-    margin: 0 auto;
+    /* width: auto;
+    margin: 0 auto; */
     display: grid;
-    gap: 1rem;
+    gap: 28px;
     justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 400px) {
+    .listing-container { grid-template-columns: repeat(1, 1fr); }
+}
+
+@media (min-width: 620px) {
     .listing-container { grid-template-columns: repeat(2, 1fr); }
 }
 

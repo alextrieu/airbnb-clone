@@ -26,11 +26,13 @@ export default function Card(props) {
 
   return (
     <div className='card-container' onMouseEnter={() => setActiveImg(true)} onMouseLeave={() => setActiveImg(false)}>
-
+          <div className='card-favourite'>
+            <i className="fa-solid fa-heart"></i>
+          </div>
         <div className='card-image'>
           <SimpleImageSlider
-            width={300}
-            height={290}
+            width={150}
+            height={287}
             images={img}
             showBullets={true}
             showNavs={activeImg}
@@ -40,9 +42,9 @@ export default function Card(props) {
             slideDuration={0.6}
           />
           <div className='card-overlay'></div>
-          <div className='card-favourite'>
+          {/* <div className='card-favourite'>
             <i className="fa-solid fa-heart"></i>
-          </div>
+          </div> */}
         </div>
 
         <div className='card-description' onClick={() => navigate('/room')}>
