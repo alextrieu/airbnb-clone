@@ -41,7 +41,7 @@ export default function Card(props) {
           />
           <div className='card-overlay'></div>
           <div className='card-favourite'>
-          <i className="fa-solid fa-heart"></i>
+            <i className="fa-solid fa-heart"></i>
           </div>
         </div>
 
