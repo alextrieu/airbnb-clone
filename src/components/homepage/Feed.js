@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card.js';
 import { listings } from '../data/listings.js';
-
+import Navigation from './Navigation.js';
 
 function Feed() {
   
@@ -9,9 +9,12 @@ function Feed() {
 
 
   return (
-    <div className='listing-container'>
-      {cardElements}
-    </div>
+    <>
+      <Navigation />
+      <div className='listing-container'>
+        {cardElements}
+      </div>
+    </>
     
   );
 }

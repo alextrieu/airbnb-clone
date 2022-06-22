@@ -1,0 +1,45 @@
+nav {
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 100px;
+    width: 350px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.filter div {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.filter div:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.profile-setting {
+    display: flex;
+    gap: 10px;
+}
+
+.profile-setting div {
+    align-self: center;
+}
+
+.navbar {
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px;
+}

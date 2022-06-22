@@ -6,7 +6,7 @@
 } */
 
 .listing-container {
-    max-width: 1200px;
+    width: auto;
     margin: 0 auto;
     display: grid;
     gap: 1rem;
