@@ -5,8 +5,12 @@ import { useNavigate } from "react-router-dom";
 export default function Card(props) {
 
   const {
+      id,
+      title,
       city,
+      reviews,
       state, 
+      country,
       distance,
       date,
       price,
@@ -47,7 +51,7 @@ export default function Card(props) {
           </div> */}
         </div>
 
-        <div className='card-description' onClick={() => navigate('/room')}>
+        <div className='card-description' onClick={() => navigate('/room', { state: { props } })}>
           <div className='card-title'>
             <span className='card-location'>{city}, {state}</span>
             <span className='card-rating'>{rating}<i className="fa-solid fa-star fa-sm"></i></span>

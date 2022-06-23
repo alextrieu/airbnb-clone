@@ -1,0 +1,10 @@
+.listing-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listing-stats, .listing-social-plugins {
+    display: flex;
+    gap: 10px;
+}
+

@@ -1,6 +1,7 @@
 @import './Card.css';
 @import './Feed.css';
 @import './Navigation.css';
+@import './Room.css';
 
 * {
     box-sizing: border-box;
