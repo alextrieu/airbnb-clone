@@ -20,14 +20,14 @@
     .listing-container { grid-template-columns: repeat(1, 1fr); }
 }
 
-@media (min-width: 620px) {
+@media (min-width: 550px) {
     .listing-container { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
     .listing-container { grid-template-columns: repeat(3, 1fr); }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .listing-container { grid-template-columns: repeat(4, 1fr); }
 }

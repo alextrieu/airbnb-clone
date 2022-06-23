@@ -1,7 +1,7 @@
 nav {
     height: 100px;
     width: 100%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #b4b1b1;
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
@@ -11,27 +11,44 @@ nav {
 .filter {
     display: flex;
     gap: 10px;
-    border: 1px solid black;
+    border: 1px solid #b4b1b1;
     padding: 15px;
     border-radius: 100px;
     width: 350px;
     justify-content: center;
     margin-left: 100px;
+    position: relative;
 }
 
 .filter div {
-    border-right: 1px solid black;
+    border-right: 1px solid #b4b1b1;
     padding-right: 10px;
+}
+
+.filter div:nth-child(3) {
+    border-right: none;
+    color: #b4b1b1;
 }
 
 .filter div:last-child {
     border-right: none;
     padding-right: 0;
+    position: absolute;
+    right: 12px;
+    top: 9px;
 }
+
+.fa-magnifying-glass {
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #ff385c;
+    color: white;
+}
+
 
 .profile-setting {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .profile-setting div {
@@ -39,7 +56,18 @@ nav {
 }
 
 .navbar {
-    border: 1px solid black;
+    border: 1px solid #b4b1b1;
     border-radius: 100px;
     padding: 10px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
 }
+
+.fa-bars {
+    margin-right: 10px;
+}
+
+.logo img{ 
+    height: 100px;
+}   
