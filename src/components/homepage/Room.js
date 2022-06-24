@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
 import Navigation from './Navigation.js';
+import { v4 as uuidv4 } from 'uuid';
 
 export default function Room() {
   const location = useLocation()
@@ -18,6 +19,12 @@ export default function Room() {
     rating,
     img
   } = location.state.props.listing
+
+  const imgElements = img.map((image) => {
+    return (
+      <img key={uuidv4()} src={image.url} className='listing-gallery-images'/>
+    )
+  })
 
   return (
     <>
@@ -41,6 +48,9 @@ export default function Room() {
             <span>Save</span>
           </div>
         </div>
+      </div> { /* end listing-information */ }
+      <div className='listing-gallery'>
+        {imgElements}
       </div>
     </>
   )

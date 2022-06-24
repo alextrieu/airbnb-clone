@@ -23,6 +23,9 @@ export const listings = [
         },
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
+        },
+        {
+          url: 'https://i.imgur.com/S59GQ9A.png'
         }
       ]
     }, 
@@ -38,6 +41,9 @@ export const listings = [
       price: 705,
       rating: 4.1,
       img: [
+        {
+          url: 'https://i.imgur.com/S59GQ9A.png'
+        },
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
         },
@@ -75,6 +81,9 @@ export const listings = [
         },
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
+        },
+        {
+          url: 'https://i.imgur.com/S59GQ9A.png'
         }
       ]
     }, 
@@ -90,6 +99,9 @@ export const listings = [
       price: 705,
       rating: 4.1,
       img: [
+        {
+          url: 'https://i.imgur.com/S59GQ9A.png'
+        },
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
         },
@@ -127,6 +139,9 @@ export const listings = [
         },
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
+        },
+        {
+          url: 'https://i.imgur.com/S59GQ9A.png'
         }
       ]
     }, 
@@ -142,6 +157,9 @@ export const listings = [
       price: 705,
       rating: 4.1,
       img: [
+        {
+          url: 'https://i.imgur.com/S59GQ9A.png'
+        },
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
         },
@@ -179,6 +197,9 @@ export const listings = [
         },
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
+        },
+        {
+          url: 'https://i.imgur.com/S59GQ9A.png'
         }
       ]
     }, 
@@ -194,6 +215,9 @@ export const listings = [
       price: 705,
       rating: 4.1,
       img: [
+        {
+          url: 'https://i.imgur.com/S59GQ9A.png'
+        },
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
         },
