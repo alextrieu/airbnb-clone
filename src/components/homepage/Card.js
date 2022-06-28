@@ -13,8 +13,11 @@ export default function Card(props) {
       country,
       distance,
       date,
+      category,
+      host,
       price,
       rating,
+      accomodates,
       img
   } = props.listing
 

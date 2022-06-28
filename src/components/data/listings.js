@@ -9,8 +9,16 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      category: 'home',
+      host: 'Vacasa Washington',
       price: 705,
       rating: 4.98,
+      accomodates: {
+        guests: 8,
+        bedrooms: 3,
+        beds: 10,
+        baths: 2.5
+      },
       img: [
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
@@ -38,8 +46,16 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      category: 'suite',
+      host: 'George Washington',
       price: 705,
       rating: 4.1,
+      accomodates: {
+        guests: 8,
+        bedrooms: 3,
+        beds: 10,
+        baths: 2.5
+      },
       img: [
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
@@ -67,8 +83,16 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      category: 'home',
+      host: 'Bill Washington',
       price: 705,
       rating: 4.1,
+      accomodates: {
+        guests: 8,
+        bedrooms: 3,
+        beds: 10,
+        baths: 2.5
+      },
       img: [
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
@@ -96,8 +120,16 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      category: 'suite',
+      host: 'Manny Washington',
       price: 705,
       rating: 4.1,
+      accomodates: {
+        guests: 8,
+        bedrooms: 3,
+        beds: 10,
+        baths: 2.5
+      },
       img: [
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
@@ -125,8 +157,16 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      category: 'home',
+      host: 'Aly Washington',
       price: 705,
       rating: 4.98,
+      accomodates: {
+        guests: 8,
+        bedrooms: 3,
+        beds: 10,
+        baths: 2.5
+      },
       img: [
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
@@ -154,8 +194,16 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      category: 'home',
+      host: 'Vanessa Washington',
       price: 705,
       rating: 4.1,
+      accomodates: {
+        guests: 8,
+        bedrooms: 3,
+        beds: 10,
+        baths: 2.5
+      },
       img: [
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
@@ -183,8 +231,16 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      category: 'suite',
+      host: 'Kelly Washington',
       price: 705,
       rating: 4.1,
+      accomodates: {
+        guests: 8,
+        bedrooms: 3,
+        beds: 10,
+        baths: 2.5
+      },
       img: [
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
@@ -212,8 +268,16 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      category: 'suite',
+      host: 'Kimberly Washington',
       price: 705,
       rating: 4.1,
+      accomodates: {
+        guests: 8,
+        bedrooms: 3,
+        beds: 10,
+        baths: 2.5
+      },
       img: [
         {
           url: 'https://i.imgur.com/S59GQ9A.png'
