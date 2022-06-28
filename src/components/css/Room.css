@@ -76,7 +76,7 @@
 
 /* Left Side Content */
 
-.listing-container {
+.listing-wrapper {
     display: flex;
     justify-content: space-between;
 }

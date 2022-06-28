@@ -61,7 +61,7 @@ export default function Room() {
       </div>
 
       {/* New Start */}
-      <div className='listing-container'>
+      <div className='listing-wrapper'>
         <div className='left-side-content'>
           <div className='listing-header'>
             <div>
