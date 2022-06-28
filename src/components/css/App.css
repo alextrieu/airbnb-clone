@@ -2,6 +2,9 @@
 @import './Feed.css';
 @import './Navigation.css';
 @import './Room.css';
+@import './CheckInDetails.css';
+@import './AirCover.css';
+@import './ListingDescription.css';
 
 * {
     box-sizing: border-box;

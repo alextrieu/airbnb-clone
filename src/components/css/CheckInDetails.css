@@ -1,0 +1,15 @@
+.check-in-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.check-in-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.check-in-details {
+    margin-left: 10px;
+    line-height: 20px;
+}
+

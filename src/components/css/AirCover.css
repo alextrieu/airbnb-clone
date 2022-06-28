@@ -1,0 +1,17 @@
+.air-cover-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.air-cover-container img {
+    height: 30px;
+}
+
+.air-cover-container img, .air-cover-container p {
+    margin-bottom: 15px;
+}
+
+.air-cover-container a {
+    color: black;
+    font-weight: bold;
+}

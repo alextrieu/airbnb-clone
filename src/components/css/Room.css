@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
+    margin-top: 20px;
 }
 
 .listing-gallery-images {
@@ -25,35 +26,9 @@
     grid-row: span 2;
 }
 
-/* Accommodaiton */
+/* Start */
 
-/* .accommodation-details {
-    margin-top: 30px;
-    width: 60%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    height: 75px;
-}
-
-.accommodation-specs ul {
-    display: flex;
-    gap: 20px;
-}
-
-.accommodation-specs ul li:first-child {
-    list-style: none;
-}
-
-.host-profile-picture img {
-    height: 56px;
-}
-
-.host-profile-picture {
-    align-self: center;
-} */
-
-.accommodation-specs ul {
+/* .accommodation-specs ul {
     display: flex;
     gap: 20px;
 }
@@ -95,10 +70,55 @@
     justify-content: space-between;
 }
 
+
+
+*/
+
+/* Left Side Content */
+
+.listing-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side-content {
+    width: 60%;
+}
+
+.left-side-content, .right-sidebar {
+    margin-top: 40px;
+}
+
+.listing-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.accommodation-specs ul {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.accommodation-specs ul li:first-child {
+    list-style: none;
+}
+
+.host-profile-picture img {
+    height: 56px;
+}
+
+.accommodation-header p {
+    font-size: 1.45em;
+    font-weight: bold;
+}
+
+/* Sidebar */
+
 /* Modal */
 
 .modal-container {
-    margin-top: 30px;
     width: 350px;
     border: 1px solid #b4b1b1;
     height: 480px;
@@ -125,7 +145,7 @@
 
 .modal-reviews ul li:first-child {
     list-style: none;
-}
+} 
 
 /* Modal Dates*/
 
@@ -169,7 +189,7 @@
     height: 50px;
     border-radius: 10px;
     border: none;
-    background-color:  rgb(230, 30, 77);
+    background-image: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%) !important;
     color: white;
     font-size: 1em;
   }
@@ -177,16 +197,18 @@
   .modal-book-listing p {
       margin-top: 10px;
       text-align: center;
-  }
+  } 
 
   /* Listing Calculator */
 
   .modal-night, .modal-cleaning, .modal-service-fee, .modal-total {
-      margin-top: 15px;
-      display: flex;
-      justify-content: space-between;
-  }
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
 
-  .modal-listing-calculator hr {
-      margin-top: 20px;
-  }
+    .modal-listing-calculator hr {
+        margin-top: 20px;
+    } 
+
+/* End */
