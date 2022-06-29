@@ -8,6 +8,7 @@
     gap: 10px;
 }
 
+/* Image Grid */
 .listing-gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -25,6 +26,16 @@
     grid-column: span 2;
     grid-row: span 2;
 }
+
+.expand-listing-gallery {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 13px;
+    text-align: center;
+    background: white;
+}
+
 
 /* Start */
 
@@ -116,9 +127,7 @@
 
 /* Sidebar */
 
-/* Modal */
-
-.modal-container {
+.sidebar-container {
     width: 350px;
     border: 1px solid #b4b1b1;
     height: 480px;
@@ -127,36 +136,36 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.modal-header {
+.sidebar-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.modal-price {
+.sidebar-price {
     font-weight: bold;
     font-size: 1.4em;
 }
 
-.modal-reviews ul {
+.sidebar-reviews ul {
     display: flex;
     gap: 20px;
 }
 
-.modal-reviews ul li:first-child {
+.sidebar-reviews ul li:first-child {
     list-style: none;
 } 
 
 /* Modal Dates*/
 
-.modal-available-dates {
+.sidebar-available-dates {
     display: flex;
     height: 60px;
     position: relative;
     border-bottom: 1px solid #b4b1b1;
 }
 
-.modal-check-in:after {
+.sidebar-check-in:after {
     content: "";
     background-color: #b4b1b1;
     position: absolute;
@@ -167,23 +176,23 @@
     display: block;
   }
 
-  .modal-guests {
+  .sidebar-guests {
       height: 60px;
       padding: 10px;
   }
 
-  .modal-check-in, .modal-check-out {
+  .sidebar-check-in, .sidebar-check-out {
     width: 50%;
     padding: 10px;
   }
 
-  .modal-dates {
+  .sidebar-dates {
     margin-top: 20px;
     border: 1px solid #b4b1b1;
     border-radius: 10px;
   }
 
-  .modal-book-listing button {
+  .sidebar-book-listing button {
     margin-top: 10px;
     width: 100%;
     height: 50px;
@@ -194,20 +203,20 @@
     font-size: 1em;
   }
 
-  .modal-book-listing p {
+  .sidebar-book-listing p {
       margin-top: 10px;
       text-align: center;
   } 
 
   /* Listing Calculator */
 
-  .modal-night, .modal-cleaning, .modal-service-fee, .modal-total {
+  .sidebar-night, .sidebar-cleaning, .sidebar-service-fee, .sidebar-total {
         margin-top: 15px;
         display: flex;
         justify-content: space-between;
     }
 
-    .modal-listing-calculator hr {
+    .sidebar-listing-calculator hr {
         margin-top: 20px;
     } 
 

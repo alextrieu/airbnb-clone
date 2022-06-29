@@ -49,9 +49,6 @@ export default function Card(props) {
             slideDuration={0.6}
           />
           <div className='card-overlay'></div>
-          {/* <div className='card-favourite'>
-            <i className="fa-solid fa-heart"></i>
-          </div> */}
         </div>
 
         <div className='card-description' onClick={() => navigate('/room', { state: { props } })}>

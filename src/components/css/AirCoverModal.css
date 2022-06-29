@@ -1,0 +1,76 @@
+#portal .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .modal-container .modal {
+    z-index: 1;
+    /* width: 350px;
+    height: 220px; */
+    width: 70%;
+    max-width: 1000px;
+    height: 70%;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    animation: animate 0.3s;
+    /* Flexbox */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    /* Container layout */
+    padding: 30px;
+  }
+
+  .modal button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 11px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: none;
+    font-size: 1rem;
+  }
+
+  @keyframes animate {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  .modal-header {
+    margin-top: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .modal-header img {
+    height: 30px;
+  }
+
+  .modal-grid {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 40px;
+      margin-bottom: 30px;
+  }
+  

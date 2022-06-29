@@ -5,6 +5,8 @@
 @import './CheckInDetails.css';
 @import './AirCover.css';
 @import './ListingDescription.css';
+@import './AirCoverModal.css';
+@import './ListingGalleryModal.css';
 
 * {
     box-sizing: border-box;
