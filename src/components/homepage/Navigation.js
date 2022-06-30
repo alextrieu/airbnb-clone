@@ -1,9 +1,11 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 
 export default function Navigation() {
+  const navigate = useNavigate();
   return (
     <nav>
-        <div className='logo'>
+        <div className='logo' onClick={() => navigate('/')}>
           <img src='/logo.png' alt="logo"></img>
         </div>
         <div className='filter'>

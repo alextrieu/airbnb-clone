@@ -1,4 +1,5 @@
 import React from 'react'
+import { v4 as uuidv4 } from 'uuid';
 
 export default function ListingHeader(props) {
     const {
@@ -15,10 +16,10 @@ export default function ListingHeader(props) {
               </div>
               <div className='accommodation-specs'>
                 <ul>
-                  <li>{accomodates.guests} guests</li>
-                  <li>{accomodates.bedrooms} bedrooms</li>
-                  <li>{accomodates.beds} beds</li>
-                  <li>{accomodates.baths} baths</li>
+                  <li key={uuidv4()}>{accomodates.guests} guests</li>
+                  <li key={uuidv4()}>{accomodates.bedrooms} bedrooms</li>
+                  <li key={uuidv4()}>{accomodates.beds} beds</li>
+                  <li key={uuidv4()}>{accomodates.baths} baths</li>
                 </ul>
               </div>
             </div>

@@ -8,6 +8,8 @@ export default function ListingGalleryModal({ setShowGalleryModal, img }) {
           <img key={uuidv4()} src={image.url} className='modal-images'/>
         )
     })
+
+    
     const modalRef = useRef()
 
     function closeModal(e) {

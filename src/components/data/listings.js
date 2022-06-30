@@ -21,19 +21,19 @@ export const listings = [
       },
       img: [
         {
-          url: 'https://i.imgur.com/S59GQ9A.png'
+          url: 'https://imgur.com/nNHRwnK.png'
         },
         {
-          url: 'https://i.imgur.com/S59GQ9A.png'
+          url: 'https://imgur.com/R7RlVBI.png'
         },
         {
-          url: 'https://i.imgur.com/S59GQ9A.png'
+          url: 'https://imgur.com/3lk487H.png'
         },
         {
-          url: 'https://i.imgur.com/S59GQ9A.png'
+          url: 'https://imgur.com/8ViosHN.png'
         },
         {
-          url: 'https://i.imgur.com/S59GQ9A.png'
+          url: 'https://imgur.com/Hqfor9k.png'
         }
       ]
     }, 

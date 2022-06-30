@@ -21,12 +21,23 @@ export default function Room() {
     setShowGalleryModal(true)
   }
 
-  const imgElements = img.map((image) => {
-    return (
-      <img key={uuidv4()} src={image.url} className='listing-gallery-images'/>
-    )
+  const imgElements = img.map((image, index, {length}) => {
+      if (index + 1 === length) {
+        return (
+          <div className='listing-gallery-images-container'>
+            <img key={uuidv4()} src={image.url} className='listing-gallery-images'/>
+            <div className='expand-listing-gallery' onClick={openModal}>
+              <i className="fa-solid fa-grip-vertical"></i> 
+              <span> Show all photos</span>
+            </div>
+          </div>
+        )
+      } else {
+        return (
+          <img key={uuidv4()} src={image.url} className='listing-gallery-images'/>
+        )
+      }
   })
-
   return (
     <>
       <Navigation />
@@ -35,11 +46,7 @@ export default function Room() {
 
       <div className='listing-gallery'>
         {imgElements}
-        <div className='expand-listing-gallery' onClick={openModal}>
-          <i className="fa-solid fa-grip-vertical"></i> 
-          <span> Show all photos</span>
-        </div>
-        {showGalleryModal ? <ListingGalleryModal setShowGalleryModal={setShowGalleryModal} img={img} /> : null}
+        {showGalleryModal ? <ListingGalleryModal setShowGalleryModal={setShowGalleryModal} img={img}/> : null}
       </div>
 
       {/* New Start */}

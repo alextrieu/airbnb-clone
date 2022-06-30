@@ -12,7 +12,8 @@
 .listing-gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
     margin-top: 20px;
 }
 
@@ -27,13 +28,20 @@
     grid-row: span 2;
 }
 
+.listing-gallery-images-container:last-child {
+    position: relative;
+}
+
 .expand-listing-gallery {
     padding: 10px;
-    width: 150px;
+    width: 175px;
     border: 1px solid black;
     border-radius: 13px;
     text-align: center;
     background: white;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
 }
 
 
