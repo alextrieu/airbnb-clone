@@ -35,6 +35,23 @@ export const listings = [
         {
           url: 'https://imgur.com/Hqfor9k.png'
         }
+      ],
+      additionalImages: [
+        {
+          url: 'https://imgur.com/nNHRwnK.png'
+        },
+        {
+          url: 'https://imgur.com/R7RlVBI.png'
+        },
+        {
+          url: 'https://imgur.com/3lk487H.png'
+        },
+        {
+          url: 'https://imgur.com/8ViosHN.png'
+        },
+        {
+          url: 'https://imgur.com/Hqfor9k.png'
+        }
       ]
     }, 
     {

@@ -1,0 +1,101 @@
+
+/* Sidebar */
+
+.sidebar-container {
+    width: 350px;
+    border: 1px solid #b4b1b1;
+    height: 480px;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    /* Sticky Sidebar */
+    position: sticky;
+    top: 2rem;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sidebar-price {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.sidebar-reviews ul {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar-reviews ul li:first-child {
+    list-style: none;
+} 
+
+/* Modal Dates*/
+
+.sidebar-available-dates {
+    display: flex;
+    height: 60px;
+    position: relative;
+    border-bottom: 1px solid #b4b1b1;
+}
+
+.sidebar-check-in:after {
+    content: "";
+    background-color: #b4b1b1;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0px;
+    left: 50%;
+    display: block;
+  }
+
+  .sidebar-guests {
+    height: 60px;
+    padding: 10px;
+}
+
+.sidebar-check-in, .sidebar-check-out {
+  width: 50%;
+  padding: 10px;
+}
+
+.sidebar-dates {
+  margin-top: 20px;
+  border: 1px solid #b4b1b1;
+  border-radius: 10px;
+}
+
+.sidebar-book-listing button {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%) !important;
+  color: white;
+  font-size: 1em;
+}
+
+.sidebar-book-listing p {
+    margin-top: 10px;
+    text-align: center;
+} 
+
+/* Listing Calculator */
+
+.sidebar-night, .sidebar-cleaning, .sidebar-service-fee, .sidebar-total {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .sidebar-listing-calculator hr {
+      margin-top: 20px;
+  } 
+
+/* End */

@@ -13,7 +13,7 @@ import ListingHeader from './Room Listing/ListingHeader.js';
 export default function Room() {
   const location = useLocation()
 
-  const { id, title, city, reviews, state, country, distance, date, category, host, price, rating, accomodates, img } = location.state.props.listing
+  const { id, title, city, reviews, state, country, distance, date, category, host, price, rating, accomodates, img, additionalImages } = location.state.props.listing
 
   const [showGalleryModal, setShowGalleryModal] = useState(false)
 
@@ -22,21 +22,21 @@ export default function Room() {
   }
 
   const imgElements = img.map((image, index, {length}) => {
-      if (index + 1 === length) {
-        return (
-          <div className='listing-gallery-images-container'>
-            <img key={uuidv4()} src={image.url} className='listing-gallery-images'/>
-            <div className='expand-listing-gallery' onClick={openModal}>
-              <i className="fa-solid fa-grip-vertical"></i> 
-              <span> Show all photos</span>
-            </div>
-          </div>
-        )
-      } else {
-        return (
+    if (index + 1 === length) {
+      return (
+        <div className='listing-gallery-images-container' key={uuidv4()}>
           <img key={uuidv4()} src={image.url} className='listing-gallery-images'/>
-        )
-      }
+          <div className='expand-listing-gallery' onClick={openModal}>
+            <i className="fa-solid fa-grip-vertical"></i> 
+            <span> Show all photos</span>
+          </div>
+        </div>
+      )
+    } else {
+      return (
+        <img key={uuidv4()} src={image.url} className='listing-gallery-images'/>
+      )
+    }
   })
   return (
     <>
@@ -46,7 +46,7 @@ export default function Room() {
 
       <div className='listing-gallery'>
         {imgElements}
-        {showGalleryModal ? <ListingGalleryModal setShowGalleryModal={setShowGalleryModal} img={img}/> : null}
+        {showGalleryModal ? <ListingGalleryModal setShowGalleryModal={setShowGalleryModal} img={img} additionalImages={additionalImages}/> : null}
       </div>
 
       {/* New Start */}
@@ -58,6 +58,14 @@ export default function Room() {
           <CheckInDetails />
           <AirCover />
           <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
         </div> {/* Left Side*/}
 
         <div className='right-sidebar'>
@@ -65,6 +73,11 @@ export default function Room() {
         </div> {/* Right Side Sidebar */}
 
       </div>
+      <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
+          <ListingDescription />
     </>
   )
 }
