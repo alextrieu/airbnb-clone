@@ -34,7 +34,7 @@ export default function ListingGalleryModal({ setShowGalleryModal, img, addition
             <div className="gallery-content-container">
                 <div className="gallery-content">
                     {imgElements}
-                    {modalImages}
+                    {isAdditionalImages ? modalImages : null}
                 </div>
             </div>
             <i className="fa-solid fa-arrow-left-long" onClick={() => setShowGalleryModal(false)}></i>

@@ -1,0 +1,36 @@
+.arrangements-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.arrangements-container h2 {
+    margin-bottom: 20px;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    flex: 0 0 auto;
+}
+
+.arrangement-count {
+    font-weight: bold;
+}
+
+.card img {
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+  

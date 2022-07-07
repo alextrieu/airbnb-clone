@@ -6,3 +6,13 @@
 .listing-description-container p:first-child {
     margin-bottom: 10px;
 }
+
+.listing-description-container p:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.listing-description-container a {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}

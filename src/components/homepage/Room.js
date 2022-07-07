@@ -7,6 +7,7 @@ import ListingDescription from './Room Listing/ListingDescription.js';
 import Sidebar from './Room Listing/Sidebar.js';
 import ListingInfo from './Room Listing/ListingInfo.js';
 import ListingGalleryModal from './Room Listing/ListingGalleryModal.js';
+import SleepingArrangements from './Room Listing/SleepingArrangements.js';
 import { v4 as uuidv4 } from 'uuid';
 import ListingHeader from './Room Listing/ListingHeader.js';
 
@@ -58,14 +59,7 @@ export default function Room() {
           <CheckInDetails />
           <AirCover />
           <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
+          <SleepingArrangements />
         </div> {/* Left Side*/}
 
         <div className='right-sidebar'>
@@ -74,10 +68,7 @@ export default function Room() {
 
       </div>
       <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
-          <ListingDescription />
+      <ListingDescription />
     </>
   )
 }

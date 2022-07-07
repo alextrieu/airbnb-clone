@@ -1,0 +1,81 @@
+#portal .ld-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .ld-modal-container .ld-modal {
+    z-index: 1;
+    width: 60%;
+    max-width: 1000px;
+    height: 90%;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    animation: animate 0.3s;
+    padding: 30px;
+    overflow: auto;
+    padding: 70px 30px 30px 30px;
+  }
+
+  .ld-modal button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 11px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: none;
+    font-size: 1rem;
+  }
+
+  @keyframes animate {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  .ld-modal-header {
+    margin-top: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .ld-modal-grid {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 40px;
+      margin-bottom: 30px;
+  }
+  
+
+  .ld-main-header, .ld-description, .ld-guest-access {
+      margin-bottom: 30px;
+  }
+
+  .ld-guest-access {
+    list-style-type: none;
+    margin-left: 20px;
+  }
+
+  .ld-guest-access li:before {
+    content: '\2013';
+    position: absolute;
+    margin-left: -20px; 
+  }

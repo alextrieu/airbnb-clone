@@ -8,6 +8,8 @@
 @import './AirCoverModal.css';
 @import './ListingGalleryModal.css';
 @import './Sidebar.css';
+@import './ListingDescriptionModal.css';
+@import './SleepingArrangements.css';
 
 * {
     box-sizing: border-box;
