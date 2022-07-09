@@ -8,6 +8,7 @@ import Sidebar from './Room Listing/Sidebar.js';
 import ListingInfo from './Room Listing/ListingInfo.js';
 import ListingGalleryModal from './Room Listing/ListingGalleryModal.js';
 import SleepingArrangements from './Room Listing/SleepingArrangements.js';
+import Amenities from './Room Listing/Amenities.js';
 import { v4 as uuidv4 } from 'uuid';
 import ListingHeader from './Room Listing/ListingHeader.js';
 
@@ -60,6 +61,7 @@ export default function Room() {
           <AirCover />
           <ListingDescription />
           <SleepingArrangements />
+          <Amenities />
         </div> {/* Left Side*/}
 
         <div className='right-sidebar'>

@@ -10,6 +10,7 @@
 @import './Sidebar.css';
 @import './ListingDescriptionModal.css';
 @import './SleepingArrangements.css';
+@import './Amenities.css';
 
 * {
     box-sizing: border-box;

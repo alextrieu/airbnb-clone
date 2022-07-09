@@ -1,0 +1,125 @@
+.amenities-title {
+    margin-top: 30px;
+}
+
+.amenities-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.amenities-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.amenities-icon {
+    width: 20px;
+    color: #222222;
+}
+
+.amenities-grid-item {
+    display: flex;
+    gap: 10px;
+    color: #222222;
+}
+
+.amenities-btn-modal {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: none;
+    margin-bottom: 30px;
+}
+
+/* Modal */
+
+#portal .amenities-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .amenities-modal-container .amenities-modal {
+    z-index: 1;
+    width: 55%;
+    max-width: 1000px;
+    height: 90%;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    animation: animate 0.3s;
+    padding: 30px;
+  }
+
+  .amenities-modal {
+    overflow: auto;
+    /* add scrollbar size reduction */
+  }
+  
+
+  .amenities-modal button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 11px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: none;
+    font-size: 1rem;
+  }
+
+  .amenities-modal-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .amenities-list {
+    margin-bottom: 30px;
+  }
+
+  .amenities-list-title {
+    margin-bottom: 10px;
+  }
+
+  .amenities-list-icon {
+    width: 30px;
+  }
+
+  .amenities-list-item {
+      line-height: 60px;
+  }
+
+  @keyframes animate {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+
+@media screen and (max-width: 992px) {
+    .remove {
+        display: none;
+    }
+    .amenities-grid {
+        grid-template-columns: 1fr;
+    }
+}
