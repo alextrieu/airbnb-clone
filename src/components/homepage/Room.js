@@ -12,10 +12,28 @@ import Amenities from './Room Listing/Amenities.js';
 import { v4 as uuidv4 } from 'uuid';
 import ListingHeader from './Room Listing/ListingHeader.js';
 
+import 'react-date-range/dist/styles.css'; // main css file
+import 'react-date-range/dist/theme/default.css'; // theme css file
+import { DateRangePicker, DateRange } from 'react-date-range';
+import { addDays } from 'date-fns';
+
+
+
 export default function Room() {
+
+  // Calendar
+  
+  const [dates, setDates] = useState([
+    {
+      startDate: new Date(),
+      endDate: addDays(new Date(), 7),
+      key: 'selection'
+    }
+  ]);
+  
   const location = useLocation()
 
-  const { id, title, city, reviews, state, country, distance, date, category, host, price, rating, accomodates, img, additionalImages } = location.state.props.listing
+  const { id, title, city, reviews, state, country, distance, date, category, host, price, rating, amenities, accomodates, img, additionalImages } = location.state.props.listing
 
   const [showGalleryModal, setShowGalleryModal] = useState(false)
 
@@ -61,7 +79,26 @@ export default function Room() {
           <AirCover />
           <ListingDescription />
           <SleepingArrangements />
-          <Amenities />
+          <Amenities data={location.state.props.listing}/>
+          <DateRangePicker
+            onChange={item => setDates([item.selection])}
+            showSelectionPreview={true}
+            moveRangeOnFirstSelection={false}
+            months={2}
+            ranges={dates}
+            direction="horizontal"
+            showDateDisplay={false}
+            staticRanges={[]}
+            inputRanges={[]}
+            minDate={dates.startDate}
+          />
+          {/* <DateRange
+            editableDateInputs={true}
+            onChange={item => setDates([item.selection])}
+            moveRangeOnFirstSelection={false}
+            ranges={dates}
+            showDateDisplay={false}
+          /> */}
         </div> {/* Left Side*/}
 
         <div className='right-sidebar'>

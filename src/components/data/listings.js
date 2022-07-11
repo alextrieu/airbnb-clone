@@ -13,6 +13,26 @@ export const listings = [
       host: 'Vacasa Washington',
       price: 705,
       rating: 4.98,
+      amenities: [
+        {
+          scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
+        },
+        {
+          bathroom: ['Bathtub', 'Hair dryer', 'Cleaning products', 'Shampoo', 'Conditioner', 'Body soap']
+        },
+        {
+          bedroomAndLaundry: ['Free washer', 'Free Dryer', 'Essentials', 'Hangers']
+        },
+        {
+          entertainment: ['85" HDTV with Netflix', 'Pool table', 'Books and reading material']
+        },
+        {
+          Family: ['Crib', 'High chair', 'Board games', 'Baby safety gates']
+        },
+        {
+          heatingAndCooling: ['Central air conditioning', 'Indoor fireplace: gas']
+        }
+      ],
       accomodates: {
         guests: 8,
         bedrooms: 3,
@@ -67,6 +87,26 @@ export const listings = [
       host: 'George Washington',
       price: 705,
       rating: 4.1,
+      amenities: [
+        {
+          scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
+        },
+        {
+          bathroom: ['Bathtub', 'Hair dryer', 'Cleaning products', 'Shampoo', 'Conditioner', 'Body soap']
+        },
+        {
+          bedroomAndLaundry: ['Free washer', 'Free Dryer', 'Essentials', 'Hangers']
+        },
+        {
+          entertainment: ['85" HDTV with Netflix', 'Pool table', 'Books and reading material']
+        },
+        {
+          Family: ['Crib', 'High chair', 'Board games', 'Baby safety gates']
+        },
+        {
+          heatingAndCooling: ['Central air conditioning', 'Indoor fireplace: gas']
+        }
+      ],
       accomodates: {
         guests: 8,
         bedrooms: 3,
@@ -104,6 +144,26 @@ export const listings = [
       host: 'Bill Washington',
       price: 705,
       rating: 4.1,
+      amenities: [
+        {
+          scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
+        },
+        {
+          bathroom: ['Bathtub', 'Hair dryer', 'Cleaning products', 'Shampoo', 'Conditioner', 'Body soap']
+        },
+        {
+          bedroomAndLaundry: ['Free washer', 'Free Dryer', 'Essentials', 'Hangers']
+        },
+        {
+          entertainment: ['85" HDTV with Netflix', 'Pool table', 'Books and reading material']
+        },
+        {
+          Family: ['Crib', 'High chair', 'Board games', 'Baby safety gates']
+        },
+        {
+          heatingAndCooling: ['Central air conditioning', 'Indoor fireplace: gas']
+        }
+      ],
       accomodates: {
         guests: 8,
         bedrooms: 3,
@@ -141,6 +201,26 @@ export const listings = [
       host: 'Manny Washington',
       price: 705,
       rating: 4.1,
+      amenities: [
+        {
+          scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
+        },
+        {
+          bathroom: ['Bathtub', 'Hair dryer', 'Cleaning products', 'Shampoo', 'Conditioner', 'Body soap']
+        },
+        {
+          bedroomAndLaundry: ['Free washer', 'Free Dryer', 'Essentials', 'Hangers']
+        },
+        {
+          entertainment: ['85" HDTV with Netflix', 'Pool table', 'Books and reading material']
+        },
+        {
+          Family: ['Crib', 'High chair', 'Board games', 'Baby safety gates']
+        },
+        {
+          heatingAndCooling: ['Central air conditioning', 'Indoor fireplace: gas']
+        }
+      ],
       accomodates: {
         guests: 8,
         bedrooms: 3,
@@ -178,6 +258,26 @@ export const listings = [
       host: 'Aly Washington',
       price: 705,
       rating: 4.98,
+      amenities: [
+        {
+          scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
+        },
+        {
+          bathroom: ['Bathtub', 'Hair dryer', 'Cleaning products', 'Shampoo', 'Conditioner', 'Body soap']
+        },
+        {
+          bedroomAndLaundry: ['Free washer', 'Free Dryer', 'Essentials', 'Hangers']
+        },
+        {
+          entertainment: ['85" HDTV with Netflix', 'Pool table', 'Books and reading material']
+        },
+        {
+          Family: ['Crib', 'High chair', 'Board games', 'Baby safety gates']
+        },
+        {
+          heatingAndCooling: ['Central air conditioning', 'Indoor fireplace: gas']
+        }
+      ],
       accomodates: {
         guests: 8,
         bedrooms: 3,
@@ -215,6 +315,26 @@ export const listings = [
       host: 'Vanessa Washington',
       price: 705,
       rating: 4.1,
+      amenities: [
+        {
+          scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
+        },
+        {
+          bathroom: ['Bathtub', 'Hair dryer', 'Cleaning products', 'Shampoo', 'Conditioner', 'Body soap']
+        },
+        {
+          bedroomAndLaundry: ['Free washer', 'Free Dryer', 'Essentials', 'Hangers']
+        },
+        {
+          entertainment: ['85" HDTV with Netflix', 'Pool table', 'Books and reading material']
+        },
+        {
+          Family: ['Crib', 'High chair', 'Board games', 'Baby safety gates']
+        },
+        {
+          heatingAndCooling: ['Central air conditioning', 'Indoor fireplace: gas']
+        }
+      ],
       accomodates: {
         guests: 8,
         bedrooms: 3,
@@ -252,6 +372,26 @@ export const listings = [
       host: 'Kelly Washington',
       price: 705,
       rating: 4.1,
+      amenities: [
+        {
+          scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
+        },
+        {
+          bathroom: ['Bathtub', 'Hair dryer', 'Cleaning products', 'Shampoo', 'Conditioner', 'Body soap']
+        },
+        {
+          bedroomAndLaundry: ['Free washer', 'Free Dryer', 'Essentials', 'Hangers']
+        },
+        {
+          entertainment: ['85" HDTV with Netflix', 'Pool table', 'Books and reading material']
+        },
+        {
+          Family: ['Crib', 'High chair', 'Board games', 'Baby safety gates']
+        },
+        {
+          heatingAndCooling: ['Central air conditioning', 'Indoor fireplace: gas']
+        }
+      ],
       accomodates: {
         guests: 8,
         bedrooms: 3,
@@ -289,6 +429,26 @@ export const listings = [
       host: 'Kimberly Washington',
       price: 705,
       rating: 4.1,
+      amenities: [
+        {
+          scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
+        },
+        {
+          bathroom: ['Bathtub', 'Hair dryer', 'Cleaning products', 'Shampoo', 'Conditioner', 'Body soap']
+        },
+        {
+          bedroomAndLaundry: ['Free washer', 'Free Dryer', 'Essentials', 'Hangers']
+        },
+        {
+          entertainment: ['85" HDTV with Netflix', 'Pool table', 'Books and reading material']
+        },
+        {
+          Family: ['Crib', 'High chair', 'Board games', 'Baby safety gates']
+        },
+        {
+          heatingAndCooling: ['Central air conditioning', 'Indoor fireplace: gas']
+        }
+      ],
       accomodates: {
         guests: 8,
         bedrooms: 3,
