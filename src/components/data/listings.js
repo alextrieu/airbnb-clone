@@ -77,7 +77,7 @@ export const listings = [
             {
               cleanliness: 4.2,
               communication: 4.4,
-              checkIn: 2.9,
+              checkIn: 4.9,
               accuracy: 4.1,
               location: 4.8,
               value: 4.1
@@ -93,7 +93,7 @@ export const listings = [
             {
               cleanliness: 4.2,
               communication: 4.4,
-              checkIn: 1.9,
+              checkIn: 4.9,
               accuracy: 4.1,
               location: 4.8,
               value: 4.1
