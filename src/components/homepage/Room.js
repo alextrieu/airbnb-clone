@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useLocation } from "react-router-dom";
 import Navigation from './Navigation.js';
 import CheckInDetails from './Room Listing/CheckInDetails.js';
@@ -8,6 +8,7 @@ import Sidebar from './Room Listing/Sidebar.js';
 import ListingInfo from './Room Listing/ListingInfo.js';
 import ListingGalleryModal from './Room Listing/ListingGalleryModal.js';
 import SleepingArrangements from './Room Listing/SleepingArrangements.js';
+import Review from './Room Listing/Review.js';
 import Amenities from './Room Listing/Amenities.js';
 import { v4 as uuidv4 } from 'uuid';
 import ListingHeader from './Room Listing/ListingHeader.js';
@@ -15,7 +16,7 @@ import ListingHeader from './Room Listing/ListingHeader.js';
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 import { DateRangePicker, DateRange } from 'react-date-range';
-import { addDays } from 'date-fns';
+import { addDays, setDate } from 'date-fns';
 
 
 
@@ -26,11 +27,27 @@ export default function Room() {
   const [dates, setDates] = useState([
     {
       startDate: new Date(),
-      endDate: addDays(new Date(), 7),
+      endDate: addDays(new Date(), 0),
       key: 'selection'
     }
   ]);
-  
+
+  var options = { year: 'numeric', month: 'long', day: 'numeric' };
+
+  // start date 
+  const startDate = dates[0].startDate.toLocaleDateString("en-US", options); 
+
+  // end date 
+  const endDate = dates[0].endDate.toLocaleDateString("en-US", options); 
+
+  const [differenceInDays, setdifferenceInDays] = React.useState()
+
+  useEffect(() => {
+    if (endDate) {
+      setdifferenceInDays((dates[0].endDate.getTime() - dates[0].startDate.getTime()) / (1000 * 3600 * 24))
+    } 
+  }, [endDate])
+
   const location = useLocation()
 
   const { id, title, city, reviews, state, country, distance, date, category, host, price, rating, amenities, accomodates, img, additionalImages } = location.state.props.listing
@@ -58,6 +75,7 @@ export default function Room() {
       )
     }
   })
+
   return (
     <>
       <Navigation />
@@ -80,25 +98,20 @@ export default function Room() {
           <ListingDescription />
           <SleepingArrangements />
           <Amenities data={location.state.props.listing}/>
-          <DateRangePicker
-            onChange={item => setDates([item.selection])}
-            showSelectionPreview={true}
-            moveRangeOnFirstSelection={false}
-            months={2}
-            ranges={dates}
-            direction="horizontal"
-            showDateDisplay={false}
-            staticRanges={[]}
-            inputRanges={[]}
-            minDate={dates.startDate}
-          />
-          {/* <DateRange
-            editableDateInputs={true}
-            onChange={item => setDates([item.selection])}
-            moveRangeOnFirstSelection={false}
-            ranges={dates}
-            showDateDisplay={false}
-          /> */}
+          <div className='date-range-container'>
+            <h2>{startDate === endDate ? "Select checkout date" : differenceInDays + " nights in " + city}</h2>
+            <p>{startDate === endDate ? "Minimum stay: 2 nights" : startDate + " - " + endDate}</p>
+            <DateRangePicker
+              onChange={item => setDates([item.selection])}
+              moveRangeOnFirstSelection={false}
+              months={2}
+              ranges={dates}
+              direction="horizontal"
+              showDateDisplay={false}
+              staticRanges={[]}
+              inputRanges={[]}
+            />
+          </div>{/* end date-range-container */}
         </div> {/* Left Side*/}
 
         <div className='right-sidebar'>
@@ -106,8 +119,12 @@ export default function Room() {
         </div> {/* Right Side Sidebar */}
 
       </div>
-      <ListingDescription />
-      <ListingDescription />
+      <hr></hr>
+      <div>
+        <Review reviews={reviews} />
+      </div>
+      {/* <ListingDescription />
+      <ListingDescription /> */}
     </>
   )
 }
