@@ -8,7 +8,7 @@ export const listings = [
         {
           id: "Alexa",
           profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-          date: "May 2022",
+          date: "June 2022",
           rating: [
             {
               cleanliness: 4.2,
@@ -24,7 +24,7 @@ export const listings = [
         {
           id: "Rawan",
           profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-          date: "May 2022",
+          date: "July 2022",
           rating: [
             {
               cleanliness: 4.4,
@@ -35,12 +35,12 @@ export const listings = [
               value: 4.1
             }
           ],
-          comment: "Big, clean house in great location. Had everything we needed and communication was fast. Parking is really limited for a house with that capacity and checkout was pretty early, but otherwise it was a great weekend getaway"
+          comment: "and and and and and and and and and and and and and and and and and and and and and and and and and and and "
         },
         {
           id: "Kateryna",
           profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-          date: "May 2022",
+          date: "January 2022",
           rating: [
             {
               cleanliness: 4.2,
@@ -56,7 +56,7 @@ export const listings = [
         {
           id: "Cristiana",
           profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-          date: "May 2022",
+          date: "February 2022",
           rating: [
             {
               cleanliness: 4.2,
@@ -72,7 +72,7 @@ export const listings = [
         {
           id: "Liz",
           profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-          date: "May 2022",
+          date: "March 2022",
           rating: [
             {
               cleanliness: 4.2,
@@ -88,7 +88,7 @@ export const listings = [
         {
           id: "Kristi",
           profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-          date: "May 2022",
+          date: "April 2022",
           rating: [
             {
               cleanliness: 4.2,

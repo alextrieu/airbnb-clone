@@ -121,7 +121,7 @@ export default function Room() {
       </div>
       <hr></hr>
       <div>
-        <Review reviews={reviews} />
+        <Review reviews={reviews} listing={location.state.props.listing} />
       </div>
       {/* <ListingDescription />
       <ListingDescription /> */}
