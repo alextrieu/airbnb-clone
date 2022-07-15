@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import { v4 as uuidv4 } from 'uuid';
 
 export default function Review({ reviews, listing}) {
@@ -27,12 +27,29 @@ export default function Review({ reviews, listing}) {
     numberOfReviews = reviews.length;
   }
 
-  const testimonialElements = reviews.map(function(review) {
-    function countWords(str) {
-      return str.trim().split(/\s+/).length;
-    }
+  const countLetters = useCallback((str) => {
+    return str.trim().split(/\s+/).length;
+  })
 
-    let wordsInParagraphs = countWords(review.comment)
+  const testimonialElements = reviews.map(function(review) {
+    // function countWords(str) {
+    //   return str.trim().split(/\s+/).length;
+    // }
+
+    // function getFields(input, field) {
+    //   var output = [];
+    //   for (var i=0; i < input.length ; ++i)
+    //       output.push(input[i][field]);
+    //   return output;
+    // }
+
+    // let result = getFields(reviews, "comment")
+
+    // console.log(result)
+
+    let lettersInTestimonial = countLetters(review.comment)
+
+    const displayShowMore = lettersInTestimonial > 30
 
     return (
       <div className='testimonial-box' key={uuidv4()}>
@@ -56,7 +73,7 @@ export default function Review({ reviews, listing}) {
               <p>{review.comment}</p>
             </div>
             {
-              wordsInParagraphs > 30 ? <div className='testimonial-comment-modal'><a href="#">Show More</a></div> : null
+              displayShowMore ? <div className='testimonial-comment-modal'><a href="#">Show More</a></div> : null
             }
           </div>
         </div>
