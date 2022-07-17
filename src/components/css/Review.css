@@ -32,6 +32,7 @@
     grid-template-columns: repeat(2, auto);
     grid-row-gap: 30px;
     grid-column-gap: 100px;
+    margin-bottom: 40px;
 }
 
 .review-rating-cleanliness {
@@ -52,7 +53,8 @@
 
 .testimonial-box {
     width: 500px;
-    height: 200px;
+    /* height: 200px; */
+    min-height: 200px;
 
     /* flex */
     display: flex;
@@ -82,7 +84,7 @@
 
 .testimonial-box-body { 
     /* Height of box container is 200px */
-    height: 100px;
+    min-height: 100px;
 }
 
 /* Comment Reviews */
@@ -105,4 +107,27 @@
 
 .testimonial-comment-modal a {
     color: black;
+}
+
+.review-show-more-link {
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+}
+
+.fa-greater-than {
+    position: absolute;
+    left: 80px;
+    top: 5px;
+    font-size: .7rem;
+}
+
+.display-modal-reviews {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    margin-top: -40px;
 }

@@ -12,6 +12,7 @@
 @import './SleepingArrangements.css';
 @import './Amenities.css';
 @import './Review.css';
+@import './ReviewModal.css';
 
 * {
     box-sizing: border-box;

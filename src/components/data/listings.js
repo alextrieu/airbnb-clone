@@ -6,7 +6,7 @@ export const listings = [
       city: 'Chelan',
       reviews: [
         {
-          id: "Alexa",
+          id: "Alexander",
           profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
           date: "June 2022",
           rating: [
@@ -23,7 +23,7 @@ export const listings = [
         },
         {
           id: "Rawan",
-          profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          profilePic: "https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
           date: "July 2022",
           rating: [
             {
@@ -35,11 +35,11 @@ export const listings = [
               value: 4.1
             }
           ],
-          comment: "and and and and and and and and and and and and and and and and and and and and and and and and and and and "
+          comment: "This is the 2nd time I stay with Vacasa. Great location, gorgeous view and spacious house. The only reason I didn’t give 5 star rating is the cleanliness in beddings and bathroom. Sent pictures to the host, but we love the staff and janitor who came to check on us and clean our place at check out. Super nice guy!"
         },
         {
           id: "Kateryna",
-          profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          profilePic: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
           date: "January 2022",
           rating: [
             {
@@ -51,11 +51,11 @@ export const listings = [
               value: 3.1
             }
           ],
-          comment: "Big, clean house in great location. Had everything we needed and communication was fast. Parking is really limited for a house with that capacity and checkout was pretty early, but otherwise it was a great weekend getaway"
+          comment: "Very disappointed in the quality and accuracy of this property, at least for the price we paid. For starters, we got in late and it was very chilly however the thermostat was behind a locked box where we couldn’t adjust the temperature in the house so we had to sleep in it very cold that night. After messaging someone came by the next day and removed it but it made me question why did they put it on in the first place then? Next it was lacking some amenities that are usually pretty typical. Paper towels being the biggest thing! We had to go out and buy paper towels to bring cause they didn’t provide any. They didn’t have any blankets around so when sitting in the cold house we had to carry out the comforters to the couch. None of the fireplaces work from what I could tell. There was no instruction for anything… how to turn on the fireplace, what dock is part of it or not, where the dumpster is, etc. Also I would say one of the main sells of this house is the windows, however half of the blinds are broken so we couldn’t even open them up to enjoy the views on the water. I tried to take a bath in the master and all of the blinds in that corner were broken. With that in mind, the shower heads were awful in every bathroom and did not provide for a comfortable bathing experience at all. I think this house has a lot of potential to be a great getaway to enjoy but many updates need to be made to the property for me to rate it as such."
         },
         {
-          id: "Cristiana",
-          profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          id: "Christian",
+          profilePic: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
           date: "February 2022",
           rating: [
             {
@@ -67,11 +67,11 @@ export const listings = [
               value: 4.1
             }
           ],
-          comment: "Big, clean house in great location. Had everything we needed and communication was fast. Parking is really limited for a house with that capacity and checkout was pretty early, but otherwise it was a great weekend getaway"
+          comment: "The views were wonderful, and we loved the various decks and spent a lot of time on them! I was disappointed in the cleanliness of the home."
         },
         {
           id: "Liz",
-          profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          profilePic: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
           date: "March 2022",
           rating: [
             {
@@ -83,11 +83,11 @@ export const listings = [
               value: 4.1
             }
           ],
-          comment: "Big, clean house in great location. Had everything we needed and communication was fast. Parking is really limited for a house with that capacity and checkout was pretty early, but otherwise it was a great weekend getaway"
+          comment: "Beautiful home with amazing views! We enjoyed our stay and hope to be back soon :)"
         },
         {
-          id: "Kristi",
-          profilePic: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          id: "Tom",
+          profilePic: "https://images.unsplash.com/photo-1545996124-0501ebae84d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
           date: "April 2022",
           rating: [
             {
@@ -99,7 +99,7 @@ export const listings = [
               value: 4.1
             }
           ],
-          comment: "Big, clean house in great location. Had everything we needed and communication was fast. Parking is really limited for a house with that capacity and checkout was pretty early, but otherwise it was a great weekend getaway"
+          comment: "We really enjoyed our stay. The house is clean and very stylish, enough space for everyone. The view from living room is beautiful"
         }
       ],
       state: 'Washington',

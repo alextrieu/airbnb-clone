@@ -1,9 +1,15 @@
 import React, { useCallback } from 'react'
 import { v4 as uuidv4 } from 'uuid';
+import ReviewModal from './ReviewModal';
 
-export default function Review({ reviews, listing}) {
-  // create progress bar 
+export default function Review({ reviews, listing }) {
   const [customerFeedback, setCustomerFeedback] = React.useState(reviews[0].rating)
+
+  const [showModal, setShowModal] = React.useState(false)
+
+  function openModal() {
+    setShowModal(true)
+  }
 
   let sum = []; 
   let sumOfRating = 0;
@@ -30,22 +36,8 @@ export default function Review({ reviews, listing}) {
   const countLetters = useCallback((str) => {
     return str.trim().split(/\s+/).length;
   })
-
-  const testimonialElements = reviews.map(function(review) {
-    // function countWords(str) {
-    //   return str.trim().split(/\s+/).length;
-    // }
-
-    // function getFields(input, field) {
-    //   var output = [];
-    //   for (var i=0; i < input.length ; ++i)
-    //       output.push(input[i][field]);
-    //   return output;
-    // }
-
-    // let result = getFields(reviews, "comment")
-
-    // console.log(result)
+  
+  const testimonialElements = reviews.map((review) => {
 
     let lettersInTestimonial = countLetters(review.comment)
 
@@ -54,7 +46,6 @@ export default function Review({ reviews, listing}) {
     return (
       <div className='testimonial-box' key={uuidv4()}>
           <div className='testimonial-box-heading'>
-
             <div className='customer-profile'>
               <div className='customer-profile-pic'>
                 <img src={review.profilePic}></img>
@@ -64,17 +55,23 @@ export default function Review({ reviews, listing}) {
                 <p>{review.date}</p>
               </div>
             </div>
-
-
           </div>
 
           <div className='testimonial-box-body'>
             <div className='testimonial-comment'>
               <p>{review.comment}</p>
             </div>
+            
             {
-              displayShowMore ? <div className='testimonial-comment-modal'><a href="#">Show More</a></div> : null
+              displayShowMore ? 
+            <div className='testimonial-comment-modal'>
+              <p onClick={openModal} className='review-show-more-link'>Show More<i className="fa-solid fa-greater-than"></i></p>
+              {showModal ? <ReviewModal setShowModal={setShowModal} reviews={reviews}/> : null}
+            </div> : 
+            null
             }
+              
+            
           </div>
         </div>
     )
@@ -202,7 +199,9 @@ export default function Review({ reviews, listing}) {
 
       <div className='testimonial-box-container'>
         {testimonialElements}
+        <button className='display-modal-reviews' onClick={openModal}>Show all {numberOfReviews} reviews</button>
       </div>
+      <hr></hr>
     </div>
   )
 }

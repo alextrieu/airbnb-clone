@@ -1,0 +1,129 @@
+#portal .review-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .review-modal-container > .modal {
+    z-index: 1;
+    /* width: 350px;
+    height: 220px; */
+    width: 70%;
+    max-width: 1000px;
+    height: 90%;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    animation: animate 0.3s;
+    /* Flexbox */
+    display: flex;
+    gap: 100px;
+    /* Container layout */
+    padding: 70px 20px 30px 20px;
+
+  }
+
+  .modal button {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    padding: 8px 11px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: none;
+    font-size: 1rem;
+  }
+
+  @keyframes animate {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+
+/* .modal-listing-review, .modal-customer-reviews {
+    border: 1px solid black;
+} */
+
+.modal-listing-review {
+    width: 300px;
+}
+
+.modal-customer-reviews {
+    flex-grow: 1;
+    overflow: scroll;
+}
+
+
+/* Customer Reviews */
+.modal-testimonial-box {
+    width: 500px;
+    /* height: 200px; */
+    min-height: 100px;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.modal-testimonial-box:last-child {
+    margin-bottom: 0;   
+}
+
+.modal-customer-profile-pic {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.modal-customer-profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.modal-customer-profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#review-search {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding-left: 40px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.modal-search-icon {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 1rem;
+    color: black;
+    background: none;
+}

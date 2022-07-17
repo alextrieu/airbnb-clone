@@ -17,7 +17,7 @@
     height: 220px; */
     width: 70%;
     max-width: 1000px;
-    height: 70%;
+    min-height: 70%;
     background: white;
     border-radius: 15px;
     position: relative;
