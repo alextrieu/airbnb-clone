@@ -1,0 +1,91 @@
+.location-title {
+    line-height: 2.5rem;
+}
+
+.location-info {
+    line-height: 2rem;
+}
+
+.location-info h1 {
+    margin-bottom: 20px;
+}
+
+.map-container {
+    margin-top: 20px;
+    height: 400px;
+}
+
+.map-container div > div {
+    width: 95% !important;
+}
+
+/* .modal-map div > div {
+    width: 50% !important;
+} */
+
+
+.location-display-more, .map-container {
+    margin-bottom: 40px;
+}
+
+/* Modal */
+
+#portal .location-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .location-modal-container .location-modal {
+    z-index: 1;
+    width: 100vw;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+
+    height: 100vh;
+    background: white;
+    position: relative;
+    animation: animate 0.3s;
+    padding: 30px;
+    overflow: auto;
+    padding: 70px 30px 30px 30px;
+  }
+
+  .location-modal button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 11px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: none;
+    font-size: 1rem;
+  }
+
+  @keyframes animate {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+/* Flex */
+
+.location-content {
+    display: flex;
+    gap: 200px;
+    width: 100%;
+}

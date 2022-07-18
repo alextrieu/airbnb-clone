@@ -13,6 +13,7 @@
 @import './Amenities.css';
 @import './Review.css';
 @import './ReviewModal.css';
+@import './LocationMaps.css';
 
 * {
     box-sizing: border-box;

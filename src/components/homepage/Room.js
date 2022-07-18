@@ -9,6 +9,7 @@ import ListingInfo from './Room Listing/ListingInfo.js';
 import ListingGalleryModal from './Room Listing/ListingGalleryModal.js';
 import SleepingArrangements from './Room Listing/SleepingArrangements.js';
 import Review from './Room Listing/Review.js';
+import LocationMaps from './Room Listing/LocationMaps.js';
 import Amenities from './Room Listing/Amenities.js';
 import { v4 as uuidv4 } from 'uuid';
 import ListingHeader from './Room Listing/ListingHeader.js';
@@ -122,7 +123,9 @@ export default function Room() {
       <hr></hr>
       <div>
         <Review reviews={reviews} listing={location.state.props.listing} />
+        <LocationMaps listing={location.state.props.listing}/>
       </div>
+      
       {/* <ListingDescription />
       <ListingDescription /> */}
     </>
