@@ -43,7 +43,7 @@ export const listings = [
           date: "January 2022",
           rating: [
             {
-              cleanliness: 4.2,
+              cleanliness: 4.1,
               communication: 4.4,
               checkIn: 4.9,
               accuracy: 4.6,
@@ -59,7 +59,7 @@ export const listings = [
           date: "February 2022",
           rating: [
             {
-              cleanliness: 4.2,
+              cleanliness: 4.7,
               communication: 4.4,
               checkIn: 4.9,
               accuracy: 4.1,
@@ -75,7 +75,7 @@ export const listings = [
           date: "March 2022",
           rating: [
             {
-              cleanliness: 4.2,
+              cleanliness: 4.9,
               communication: 4.4,
               checkIn: 4.9,
               accuracy: 4.1,
@@ -91,7 +91,7 @@ export const listings = [
           date: "April 2022",
           rating: [
             {
-              cleanliness: 4.2,
+              cleanliness: 4.0,
               communication: 4.4,
               checkIn: 4.9,
               accuracy: 4.1,
@@ -100,6 +100,22 @@ export const listings = [
             }
           ],
           comment: "We really enjoyed our stay. The house is clean and very stylish, enough space for everyone. The view from living room is beautiful"
+        },
+        {
+          id: "Mike",
+          profilePic: "https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          date: "May 2022",
+          rating: [
+            {
+              cleanliness: 4.0,
+              communication: 4.4,
+              checkIn: 4.9,
+              accuracy: 4.1,
+              location: 4.8,
+              value: 4.1
+            }
+          ],
+          comment: "The dock they advertise in the first few pictures isn’t theirs it’s the neighbor properties. The tub/tap water was brown and the maintenance people said it would go away. we fixed a broken toilet. The food all table is broken."
         }
       ],
       state: 'Washington',

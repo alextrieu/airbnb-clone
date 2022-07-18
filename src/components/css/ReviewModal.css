@@ -127,3 +127,18 @@
     color: black;
     background: none;
 }
+
+/* Flex */
+.modal-category-reviews {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal-review-rating {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+}

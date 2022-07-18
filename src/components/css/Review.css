@@ -22,7 +22,7 @@
 
 .review-rating-bar {
     height: 5px;
-    width: 70%;
+    /* width: 70%; */
     background-color: black;
 }
 
@@ -35,7 +35,7 @@
     margin-bottom: 40px;
 }
 
-.review-rating-cleanliness {
+.review-rating-wrapper {
     display: flex;
     justify-content: space-between;
 }
