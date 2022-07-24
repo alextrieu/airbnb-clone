@@ -5,7 +5,8 @@ export default function ListingHeader(props) {
     const {
         category,
         host,
-        accomodates
+        accomodates,
+        hostPP
     } = props.data
   return (
     <>
@@ -24,7 +25,7 @@ export default function ListingHeader(props) {
               </div>
             </div>
             <div className='host-profile-picture'>
-              <img src={"https://a0.muscache.com/im/pictures/user/4a227ebe-74c0-4180-881a-f4db35adb1a0.jpg?im_w=240"}/>
+              <img src={hostPP}/>
             </div>
           </div>
     </>

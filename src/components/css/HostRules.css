@@ -1,0 +1,153 @@
+.host-rules-title {
+    margin-top: 2rem;
+}
+
+.host-rules-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.fa-icon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.host-rules {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.host-rules p {
+    max-width: 350px;
+}
+
+.host-rules a {
+    color: gray;
+}
+
+/* Host Modal */
+
+#portal .host-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .host-modal-container .modal {
+    z-index: 1;
+    min-width: 50%;
+    max-width: 1000px;
+    height: 90%;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    animation: animate 0.3s;
+    padding: 70px 20px 20px 20px;
+    overflow: auto;
+  }
+
+  .host-rules-modal {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  
+  /* Health & Safety Modal */
+
+  #portal .hs-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .hs-modal-container .modal {
+    z-index: 1;
+    width: 80%;
+    max-width: 800px;
+    height: 55%;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    animation: animate 0.3s;
+    padding: 70px 20px 20px 20px;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .modal > h2 {
+      margin-bottom: 12px;
+  }
+
+  /* Cancellation Modal */
+
+  #portal .cancel-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .cancel-modal-container .modal {
+    z-index: 1;
+    width: 40%;
+    max-width: 800px;
+    height: 75%;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    animation: animate 0.3s;
+    padding: 70px 20px 20px 20px;
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+/* Cancellation Modal */
+
+.cancellation-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.check-in-dates, .check-out-dates {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cancellation-policy {
+    width: 80%;
+}
+
+.cancellation-policy-link {
+    color: black;
+}

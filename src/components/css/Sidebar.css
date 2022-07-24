@@ -12,6 +12,7 @@
     /* Sticky Sidebar */
     position: sticky;
     top: 2rem;
+    flex-basis: 350px;
 }
 
 .sidebar-header {

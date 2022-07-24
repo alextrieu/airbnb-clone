@@ -4,7 +4,8 @@ import { useNavigate } from "react-router-dom";
 export default function Navigation() {
   const navigate = useNavigate();
   return (
-    <nav>
+    <>
+      <nav>
         <div className='logo' onClick={() => navigate('/')}>
           <img src='/logo.png' alt="logo"></img>
         </div>
@@ -26,6 +27,7 @@ export default function Navigation() {
               <i className="fa-regular fa-user"></i>
             </div>
         </div>
-    </nav>
+      </nav>
+    </>
   )
 }

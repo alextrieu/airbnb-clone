@@ -122,8 +122,16 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      dateJoined: {
+        month: "January",
+        date: "21",
+        year: "2017"
+      },
+      hostPP: 'https://a0.muscache.com/im/pictures/user/4a227ebe-74c0-4180-881a-f4db35adb1a0.jpg?im_w=240',
       category: 'home',
       host: 'Vacasa Washington',
+      idVerification: true,
+      languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
       price: 705,
       rating: 4.98,
       amenities: [
@@ -196,6 +204,12 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      dateJoined: {
+        month: "January",
+        date: "21",
+        year: "2017"
+      },
+      hostPP: 'https://a0.muscache.com/im/pictures/user/4a227ebe-74c0-4180-881a-f4db35adb1a0.jpg?im_w=240',
       category: 'suite',
       host: 'George Washington',
       price: 705,
@@ -253,6 +267,12 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      dateJoined: {
+        month: "January",
+        date: "21",
+        year: "2017"
+      },
+      hostPP: 'https://a0.muscache.com/im/pictures/user/4a227ebe-74c0-4180-881a-f4db35adb1a0.jpg?im_w=240',
       category: 'home',
       host: 'Bill Washington',
       price: 705,
@@ -310,6 +330,12 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      dateJoined: {
+        month: "January",
+        date: "21",
+        year: "2017"
+      },
+      hostPP: 'https://a0.muscache.com/im/pictures/user/4a227ebe-74c0-4180-881a-f4db35adb1a0.jpg?im_w=240',
       category: 'suite',
       host: 'Manny Washington',
       price: 705,
@@ -367,6 +393,12 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      dateJoined: {
+        month: "January",
+        date: "21",
+        year: "2017"
+      },
+      hostPP: 'https://a0.muscache.com/im/pictures/user/4a227ebe-74c0-4180-881a-f4db35adb1a0.jpg?im_w=240',
       category: 'home',
       host: 'Aly Washington',
       price: 705,
@@ -424,6 +456,12 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      dateJoined: {
+        month: "January",
+        date: "21",
+        year: "2017"
+      },
+      hostPP: 'https://a0.muscache.com/im/pictures/user/4a227ebe-74c0-4180-881a-f4db35adb1a0.jpg?im_w=240',
       category: 'home',
       host: 'Vanessa Washington',
       price: 705,
@@ -481,6 +519,12 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      dateJoined: {
+        month: "January",
+        date: "21",
+        year: "2017"
+      },
+      hostPP: 'https://a0.muscache.com/im/pictures/user/4a227ebe-74c0-4180-881a-f4db35adb1a0.jpg?im_w=240',
       category: 'suite',
       host: 'Kelly Washington',
       price: 705,
@@ -538,6 +582,12 @@ export const listings = [
       country: 'United States',
       distance: '100 miles away',
       date: 'Aug 21 - 26',
+      dateJoined: {
+        month: "January",
+        date: "21",
+        year: "2017"
+      },
+      hostPP: 'https://a0.muscache.com/im/pictures/user/4a227ebe-74c0-4180-881a-f4db35adb1a0.jpg?im_w=240',
       category: 'suite',
       host: 'Kimberly Washington',
       price: 705,

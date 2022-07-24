@@ -29,7 +29,12 @@ export default function Card(props) {
 
   const [activeImg, setActiveImg] = React.useState(false)
 
+  const onNavigationPageClick = (e) => {
+    e.preventDefault();
 
+    navigate('/room/' + id, { 
+      state: { props } })
+  }
 
   return (
     <div className='card-container' onMouseEnter={() => setActiveImg(true)} onMouseLeave={() => setActiveImg(false)}>
@@ -51,7 +56,8 @@ export default function Card(props) {
           <div className='card-overlay'></div>
         </div>
 
-        <div className='card-description' onClick={() => navigate('/room', { state: { props } })}>
+        {/* <div className='card-description' onClick={() => navigate('/room/', { state: { props } })}> */}
+        <div className='card-description' onClick={onNavigationPageClick}>
           <div className='card-title'>
             <span className='card-location'>{city}, {state}</span>
             <span className='card-rating'>{rating}<i className="fa-solid fa-star fa-sm"></i></span>

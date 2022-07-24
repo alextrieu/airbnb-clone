@@ -16,7 +16,7 @@ export default function Review({ reviews }) {
   let sumOfRating = 0;
   let averageRating = 0;
   let numberOfReviews = 0;
-
+  
   if (customerFeedback) {
     reviews.forEach(function (item) {
       item.rating.forEach(function (rating) {

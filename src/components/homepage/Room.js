@@ -11,6 +11,9 @@ import SleepingArrangements from './Room Listing/SleepingArrangements.js';
 import Review from './Room Listing/Review.js';
 import LocationMaps from './Room Listing/LocationMaps.js';
 import Amenities from './Room Listing/Amenities.js';
+import HostInfo from './Room Listing/HostInfo.js';
+import HostRules from './Room Listing/HostRules.js';
+import Footer from './Footer.js';
 import { v4 as uuidv4 } from 'uuid';
 import ListingHeader from './Room Listing/ListingHeader.js';
 
@@ -79,6 +82,7 @@ export default function Room() {
 
   return (
     <>
+    <div className='main-container'>
       <Navigation />
       <div>{title}</div>
       <ListingInfo data={location.state.props.listing}/>
@@ -124,10 +128,15 @@ export default function Room() {
       <div>
         <Review reviews={reviews} listing={location.state.props.listing} />
         <LocationMaps listing={location.state.props.listing}/>
+        <HostInfo data={location.state.props.listing}/>
+        <HostRules />
       </div>
       
       {/* <ListingDescription />
       <ListingDescription /> */}
+    </div>
+    <hr></hr>
+    <Footer />
     </>
   )
 }

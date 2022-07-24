@@ -1,0 +1,71 @@
+.fa-less-than {
+    cursor: pointer;
+}
+
+.host-main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 2rem auto;
+}
+
+.contact-host-container-width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.host-container {
+    flex-grow: 1;
+}
+
+.host-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.host-info {
+    line-height: 2rem;
+}
+
+.host-logo {
+    align-self: center;
+}
+
+.host-logo img{
+    height: 3rem;
+}
+
+.host-traveller-container {
+    margin-top: 1rem;
+}
+
+.host-traveller-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.host-traveller-info-styling {
+    margin-bottom: 1rem;
+}
+
+.host-traveller-info li {
+    margin-left: 15px;
+}
+
+.host-question-text-area textarea {
+    margin: 1rem auto;
+    width: 100%;
+    height: 7rem;
+    border-radius: 5px;
+}
+
+.host-question-btn button {
+    outline: none;
+    border: 1px solid black;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}

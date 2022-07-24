@@ -14,6 +14,10 @@
 @import './Review.css';
 @import './ReviewModal.css';
 @import './LocationMaps.css';
+@import './HostInfo.css';
+@import './ContactHost.css';
+@import './HostRules.css';
+@import './Footer.css';
 
 * {
     box-sizing: border-box;

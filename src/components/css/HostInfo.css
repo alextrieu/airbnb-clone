@@ -1,0 +1,66 @@
+.host-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 200px;
+    margin-bottom: 40px;
+}
+
+.host-left-side-container, .host-right-side-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.host-left-side-container p {
+    width: 450px;
+}
+
+.testimonial-box-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.fa-icon {
+    margin: 0;
+    width: 20px;
+}
+
+.host-records {
+    width: 275px;
+    display: flex;
+}
+
+.host-languages::after {
+    content: ", "
+}
+
+.host-languages:last-of-type:after {
+    content: ""
+}
+
+.host-contact-btn {
+    padding: 13px 23px;
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+}
+
+.host-contact-btn:hover {
+    background: #F7F7F7;
+}
+
+.host-warning {
+    display: flex;
+    gap: 20px;
+}
+
+.host-warning p {
+    width: 275px;
+}
+
+.host-warning i {
+    align-self: center;
+    font-size: 1.5rem;
+}

@@ -62,6 +62,7 @@ nav {
     width: 75px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .fa-bars {
@@ -70,4 +71,5 @@ nav {
 
 .logo img{ 
     height: 90px;
+    cursor: pointer;
 }   
