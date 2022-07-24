@@ -1,20 +1,7 @@
-.amenities-title {
-    margin-top: 30px;
-}
-
-.amenities-container {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 .amenities-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-}
-
-.amenities-icon {
-    width: 20px;
 }
 
 .amenities-grid-item {
@@ -93,10 +80,6 @@
 
   .amenities-list-title {
     margin-bottom: 10px;
-  }
-
-  .amenities-list-icon {
-    width: 30px;
   }
 
   .amenities-list-item {

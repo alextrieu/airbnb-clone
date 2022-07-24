@@ -13,8 +13,6 @@
 
   .modal-container .modal {
     z-index: 1;
-    /* width: 350px;
-    height: 220px; */
     width: 70%;
     max-width: 1000px;
     min-height: 70%;
@@ -22,12 +20,6 @@
     border-radius: 15px;
     position: relative;
     animation: animate 0.3s;
-    /* Flexbox */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-
-    /* Container layout */
     padding: 30px;
   }
 

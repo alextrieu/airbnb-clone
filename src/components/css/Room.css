@@ -13,6 +13,11 @@
     list-style: none;
 }
 
+.listing-stats li:nth-child(2) > span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .listing-stats li:before {
     content:"· ";
     font-size: 20px;
@@ -22,10 +27,6 @@
 
 .listing-stats li:last-child span {
     text-decoration: underline;
-}
-
-.social-icons {
-    margin-right: 7px;
 }
 
 .listing-stats li:first-child:before {

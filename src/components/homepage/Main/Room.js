@@ -84,6 +84,7 @@ export default function Room() {
     <>
     <div className='main-container'>
       <Navigation />
+      
       <div className='listing-main-title'>{title}</div>
       <ListingInfo data={location.state.props.listing}/>
 

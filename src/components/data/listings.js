@@ -131,6 +131,7 @@ export const listings = [
       category: 'home',
       host: 'Vacasa Washington',
       idVerification: true,
+      superHost: true,
       languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
       price: 705,
       rating: 4.98,

@@ -3,7 +3,7 @@ import ReactDom from 'react-dom';
 import { v4 as uuidv4 } from 'uuid';
 import CategoryReviews from '../CategoryReviews';
 
-export default function Modal({ setShowModal, reviews }) {
+export default function ReviewModal({ setShowModal, reviews }) {
     const [customerFeedback, setCustomerFeedback] = React.useState(reviews[0].rating)
     const modalRef = useRef()
 

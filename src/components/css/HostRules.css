@@ -1,16 +1,11 @@
 .host-rules-title {
-    margin-top: 2rem;
+    margin-top: 30px;
 }
 
 .host-rules-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
-}
-
-.fa-icon {
-    width: 20px;
-    margin-right: 10px;
+    margin-bottom: 30px;
 }
 
 .host-rules {
