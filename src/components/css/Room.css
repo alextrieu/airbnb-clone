@@ -1,11 +1,40 @@
 .listing-information {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .listing-stats, .listing-social-plugins {
     display: flex;
     gap: 10px;
+}
+
+.listing-stats li {
+    list-style: none;
+}
+
+.listing-stats li:before {
+    content:"· ";
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.listing-stats li:last-child span {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-right: 7px;
+}
+
+.listing-stats li:first-child:before {
+    content: "";
+}
+
+.listing-main-title {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 /* Image Grid */

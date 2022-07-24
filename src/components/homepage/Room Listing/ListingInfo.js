@@ -12,20 +12,20 @@ export default function ListingInfo(props) {
   return (
     <>
         <div className='listing-information'>
-            <div className='listing-stats'>
-            <div>{rating}<i className="fa-solid fa-star fa-sm"></i></div>
-            <div>{reviews.length} reviews</div>
-            <div><i className="fa-solid fa-square-check"></i></div>
-            <div><p>Superhost</p></div>
-            <div>{city}, {state}, {country}</div>
-            </div>
+            <ul className='listing-stats'>
+              <li>{rating}<i className="fa-solid fa-star fa-sm"></i></li>
+              <li>{reviews.length} reviews</li>
+              <li><i className="fa-solid fa-square-check"></i></li>
+              <li>Superhost</li>
+              <li><span>{city}, {state}, {country}</span></li>
+            </ul>
         <div className='listing-social-plugins'>
           <div>
-            <i className="fa-solid fa-arrow-up-from-bracket"></i>
+            <i className="fa-solid fa-arrow-up-from-bracket social-icons"></i>
             <span>Share</span>
           </div>
           <div>
-            <i className="fa-regular fa-heart"></i>
+            <i className="fa-regular fa-heart social-icons"></i>
             <span>Save</span>
           </div>
         </div>
