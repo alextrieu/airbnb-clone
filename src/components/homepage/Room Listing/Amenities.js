@@ -1,5 +1,5 @@
 import React from 'react'
-import AmenitiesModal from './AmenitiesModal'
+import AmenitiesModal from './Modals/AmenitiesModal'
 
 export default function Amenities(props) {
   const [showModal, setShowModal] = React.useState(false)

@@ -6,18 +6,12 @@ export default function Card(props) {
 
   const {
       id,
-      title,
       city,
-      reviews,
       state, 
-      country,
       distance,
       date,
-      category,
-      host,
       price,
       rating,
-      accomodates,
       img
   } = props.listing
 
@@ -56,7 +50,6 @@ export default function Card(props) {
           <div className='card-overlay'></div>
         </div>
 
-        {/* <div className='card-description' onClick={() => navigate('/room/', { state: { props } })}> */}
         <div className='card-description' onClick={onNavigationPageClick}>
           <div className='card-title'>
             <span className='card-location'>{city}, {state}</span>

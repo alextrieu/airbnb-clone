@@ -1,9 +1,9 @@
 import React from 'react'
-import HouseRulesModal from './Modals/HouseRulesModal'
-import CancellationModal from './Modals/CancellationModal'
-import HealthSafetyModal from './Modals/HealthSafetyModal'
-import HouseRules from './Rules/HouseRules'
-import HealthSafety from './Rules/HealthSafety'
+import HouseRulesModal from '../Modals/HouseRulesModal'
+import CancellationModal from '../Modals/CancellationModal'
+import HealthSafetyModal from '../Modals/HealthSafetyModal'
+import HouseRules from './HouseRules'
+import HealthSafety from './HealthSafety'
 
 export default function HostRules() {
   const [showModal, setShowModal] = React.useState({

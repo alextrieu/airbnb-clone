@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate, useLocation } from "react-router-dom";
-import Navigation from '../Navigation';
+import Navigation from '../Main/Navigation';
 import Sidebar from './Sidebar';
 
 export default function ContactHost() {

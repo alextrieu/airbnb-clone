@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation } from "react-router-dom";
 import Navigation from './Navigation.js';
-import CheckInDetails from './Room Listing/CheckInDetails.js';
-import AirCover from './Room Listing/AirCover.js';
-import ListingDescription from './Room Listing/ListingDescription.js';
-import Sidebar from './Room Listing/Sidebar.js';
-import ListingInfo from './Room Listing/ListingInfo.js';
-import ListingGalleryModal from './Room Listing/ListingGalleryModal.js';
-import SleepingArrangements from './Room Listing/SleepingArrangements.js';
-import Review from './Room Listing/Review.js';
-import LocationMaps from './Room Listing/LocationMaps.js';
-import Amenities from './Room Listing/Amenities.js';
-import HostInfo from './Room Listing/HostInfo.js';
-import HostRules from './Room Listing/HostRules.js';
+import CheckInDetails from '../Room Listing/CheckInDetails.js';
+import AirCover from '../Room Listing/Policies/AirCover.js';
+import ListingDescription from '../Room Listing/ListingDescription.js';
+import Sidebar from '../Room Listing/Sidebar.js';
+import ListingInfo from '../Room Listing/ListingInfo.js';
+import ListingGalleryModal from '../Room Listing/Modals/ListingGalleryModal.js';
+import SleepingArrangements from '../Room Listing/SleepingArrangements.js';
+import Review from '../Room Listing/Review.js';
+import LocationMaps from '../Room Listing/LocationMaps.js';
+import Amenities from '../Room Listing/Amenities.js';
+import HostInfo from '../Room Listing/HostInfo.js';
+import HostRules from '../Room Listing/Rules/HostRules.js';
 import Footer from './Footer.js';
 import { v4 as uuidv4 } from 'uuid';
-import ListingHeader from './Room Listing/ListingHeader.js';
+import ListingHeader from '../Room Listing/ListingHeader.js';
 
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ListingDescriptionModal from './ListingDescriptionModal'
+import ListingDescriptionModal from './Modals/ListingDescriptionModal'
 
 export default function ListingDescription() {
   const [showModal, setShowModal] = useState(false)

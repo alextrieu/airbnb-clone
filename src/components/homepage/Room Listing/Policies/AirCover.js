@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import AirCoverModal from './AirCoverModal'
+import AirCoverModal from '../Modals/AirCoverModal'
 
 export default function () {
   const [showModal, setShowModal] = useState(false)

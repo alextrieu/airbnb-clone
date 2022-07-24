@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import ReactDom from 'react-dom';
-import CustomMap from './CustomMap';
+import CustomMap from '../CustomMap';
 
 export default function LocationMapsModal({ setShowModal }) {
     const modalRef = useRef()

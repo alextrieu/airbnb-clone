@@ -13,10 +13,9 @@
     grid-gap: 20px;
 }
 
-/* .amenities-icon {
+.amenities-icon {
     width: 20px;
-    color: #222222;
-} */
+}
 
 .amenities-grid-item {
     display: flex;

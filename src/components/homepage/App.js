@@ -1,8 +1,8 @@
 import React from 'react'
-import Feed from './Feed'
+import Feed from './Main/Feed'
 import '../css/App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Room from './Room';
+import Room from './Main/Room';
 import ContactHost from './Room Listing/ContactHost';
 
 export default function App() {

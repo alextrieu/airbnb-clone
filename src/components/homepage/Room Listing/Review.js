@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react'
 import { v4 as uuidv4 } from 'uuid';
-import ReviewModal from './ReviewModal';
+import ReviewModal from './Modals/ReviewModal';
 import CategoryReviews from './CategoryReviews';
 
 export default function Review({ reviews }) {

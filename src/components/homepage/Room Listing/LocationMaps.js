@@ -1,6 +1,6 @@
 import React from 'react'
 import CustomMap from './CustomMap'
-import LocationMapsModal from './LocationMapsModal'
+import LocationMapsModal from './Modals/LocationMapsModal'
 
 export default function LocationMaps( { listing }) {
   const [showModal, setShowModal] = React.useState(false)

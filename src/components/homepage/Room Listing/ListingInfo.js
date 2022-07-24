@@ -15,8 +15,7 @@ export default function ListingInfo(props) {
             <ul className='listing-stats'>
               <li>{rating}<i className="fa-solid fa-star fa-sm"></i></li>
               <li>{reviews.length} reviews</li>
-              <li><i className="fa-solid fa-square-check"></i></li>
-              <li>Superhost</li>
+              <li><i className="fa-solid fa-square-check"></i> Superhost</li>
               <li><span>{city}, {state}, {country}</span></li>
             </ul>
         <div className='listing-social-plugins'>

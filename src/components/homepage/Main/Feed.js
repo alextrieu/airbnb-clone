@@ -1,7 +1,8 @@
 import React from 'react';
 import Card from './Card.js';
-import { listings } from '../data/listings.js';
+import { listings } from '../../data/listings.js';
 import Navigation from './Navigation.js';
+import Footer from './Footer.js';
 
 function Feed() {
   
@@ -9,13 +10,15 @@ function Feed() {
 
 
   return (
-    <div className="main-feed-container">
-      <Navigation />
-      <div className='listing-container'>
-        {cardElements}
+    <>
+      <div className="main-feed-container">
+        <Navigation />
+        <div className='listing-container'>
+          {cardElements}
+        </div>
       </div>
-    </div>
-    
+      <Footer />
+    </>
   );
 }
 
