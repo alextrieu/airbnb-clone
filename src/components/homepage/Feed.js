@@ -9,12 +9,12 @@ function Feed() {
 
 
   return (
-    <>
+    <div className="main-feed-container">
       <Navigation />
       <div className='listing-container'>
         {cardElements}
       </div>
-    </>
+    </div>
     
   );
 }

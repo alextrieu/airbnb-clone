@@ -25,10 +25,11 @@
     margin: 0;
 }
 
-.main-container {
+.main-container, .main-feed-container {
     width: 90%;
     margin: 0 auto;
 }
+
 
 .rdrDefinedRangesWrapper {
     display: none;
