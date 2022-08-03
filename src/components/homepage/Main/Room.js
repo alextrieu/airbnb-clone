@@ -80,6 +80,11 @@ export default function Room() {
     }
   })
 
+  React.useEffect(() => {
+    // This will run when the page first loads and whenever the title changes
+    document.title = title;
+  }, [title]);
+
   return (
     <>
     <div className='main-container'>

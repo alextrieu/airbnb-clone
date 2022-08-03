@@ -6,6 +6,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    z-index: 999;
+    position: sticky;
+    top: 0;
 }
 
 .filter {

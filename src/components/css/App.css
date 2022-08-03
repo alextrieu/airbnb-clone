@@ -25,6 +25,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: roboto, open-sans,sans-serif;
 }
 
 .main-container, .main-feed-container {
@@ -53,6 +54,5 @@
 
 .check-in-info, .air-cover-container, .listing-description-container, .arrangements-container, .amenities-main-wrapper,
 .amenities-container, .date-range-container, .review-container {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 2rem auto;
 }
