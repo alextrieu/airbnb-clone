@@ -1,5 +1,6 @@
 import React from 'react'
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
+const { REACT_APP_API } = process.env
 
 function CustomMap({ style, google, locations = [] }) {
     return (
@@ -22,5 +23,5 @@ function CustomMap({ style, google, locations = [] }) {
 };
 
 export default GoogleApiWrapper({
-    apiKey: process.env.API_URL
+    apiKey: process.env.REACT_APP_API
 })(CustomMap);
