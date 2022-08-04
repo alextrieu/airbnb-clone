@@ -68,11 +68,17 @@
 
 .footer-social-media {
     gap: 30px;
+    align-items: center;
     cursor: pointer;
+}
+
+.fa-brands::before {
+    color: black;
 }
 
 .footer-site-options {
     gap: 30px;
+    cursor: pointer;
 }
 
 .footer-icon {

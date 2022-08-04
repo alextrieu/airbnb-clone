@@ -39,10 +39,11 @@ export default function Footer() {
             </div>
         </div>
         <hr className='footer-divider'></hr>
+
         <div className='footer-terms'>
             <div>
                 <ul className='footer-tos'>
-                    <li>© 2022 Airbnb, Inc.</li>
+                    <li>© 2022 Created by Alex Trieu</li>
                     <li><a href="#">Privacy</a></li>
                     <li><a href="#">Terms</a></li>
                     <li><a href="#">Sitemap</a></li>
@@ -54,9 +55,9 @@ export default function Footer() {
                     <div><i class="fa-solid fa-dollar-sign footer-icon"></i><span>CAD</span></div>
                 </div>
                 <div className='footer-social-media'>
-                    <i class="fa-brands fa-facebook-f"><a href="#" target="_blank"></a></i>
-                    <i class="fa-brands fa-twitter"><a href="#" target="_blank"></a></i>
-                    <i class="fa-brands fa-instagram"><a href="#" target="_blank"></a></i>
+                    <a href="https://github.com/alextrieu" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/AlexCod3s" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
         </div>
