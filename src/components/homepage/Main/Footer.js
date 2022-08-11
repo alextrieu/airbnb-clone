@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='footer-main-container'>
+    <footer className='footer-main-container'>
         <div className='footer-container'>
             <div className='footer-content'>
                 <p>Support</p>
@@ -54,13 +54,13 @@ export default function Footer() {
                     <div><i class="fa-solid fa-globe footer-icon"></i><span>English</span></div>
                     <div><i class="fa-solid fa-dollar-sign footer-icon"></i><span>CAD</span></div>
                 </div>
-                <div className='footer-social-media'>
+                <nav className='footer-social-media'>
                     <a href="https://github.com/alextrieu" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <a href="https://twitter.com/AlexCod3s" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                     <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                </div>
+                </nav>
             </div>
         </div>
-    </div>
+    </footer>
   )
 }

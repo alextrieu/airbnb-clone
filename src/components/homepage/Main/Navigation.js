@@ -5,7 +5,7 @@ export default function Navigation() {
   const navigate = useNavigate();
   return (
     <>
-      <nav>
+      <nav className='navigation-bar'>
         <div className='logo' onClick={() => navigate('/')}>
           <img src='/logo.png' alt="logo"></img>
         </div>
