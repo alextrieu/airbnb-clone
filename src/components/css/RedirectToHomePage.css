@@ -1,0 +1,22 @@
+.redirect-container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redirect-to-home a {
+    text-decoration: none;
+    color: black;
+}
+
+.redirect-left-arrow-icon {
+    margin-right: 10px;
+}
+
+.redirect-icons {
+    display: flex;
+    gap: 10px;
+
+}
+

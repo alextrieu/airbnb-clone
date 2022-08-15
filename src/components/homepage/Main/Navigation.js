@@ -28,6 +28,24 @@ export default function Navigation() {
             </div>
         </div>
       </nav>
+      <nav className='mobile-search-bar-container'>
+        <div className='mobile-search-bar-wrapper'>
+          <div className='mobile-search-bar'>
+            <div className='search-icon'><i className="fa-solid fa-magnifying-glass"></i></div>
+            <div className='mobile-search-options-container'>
+              <div className='mobile-search-destination'>Where to?</div>
+              <div className='mobile-search-options'>
+                <ul>
+                  <li><a href="#">Anywhere</a></li>
+                  <li><a href="#">Any week</a></li>
+                  <li><a href="#">Add guests</a></li>
+                </ul>
+              </div>
+            </div>
+            <div className='filter-icon'><i className="fa-solid fa-sliders"></i></div>
+          </div>
+        </div>
+      </nav>
     </>
   )
 }

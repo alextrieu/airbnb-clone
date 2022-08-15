@@ -18,6 +18,7 @@
 @import './ContactHost.css';
 @import './HostRules.css';
 @import './Footer.css';
+@import './RedirectToHomePage.css';
 
 /* Main */
 
@@ -53,6 +54,6 @@
 /* New Section */
 
 .check-in-info, .air-cover-container, .listing-description-container, .arrangements-container, .amenities-main-wrapper,
-.amenities-container, .date-range-container, .review-container {
+.amenities-container, .date-range-container, .review-container, .mobile-search-bar-container {
     margin: 2rem auto;
 }

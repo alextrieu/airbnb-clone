@@ -31,7 +31,7 @@ export default function Card(props) {
   }
 
   return (
-    <div className='card-container' onMouseEnter={() => setActiveImg(true)} onMouseLeave={() => setActiveImg(false)}>
+    <article className='card-container' onMouseEnter={() => setActiveImg(true)} onMouseLeave={() => setActiveImg(false)}>
           <div className='card-favourite'>
             <i className="fa-solid fa-heart"></i>
           </div>
@@ -64,6 +64,6 @@ export default function Card(props) {
           </div>
         </div>
         
-    </div>
+    </article>
   )
 }

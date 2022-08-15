@@ -14,12 +14,14 @@ export default function Footer() {
                 <a href="https://www.airbnb.ca/help/home?from=footer" target="_blank">Our COVID-19 Response</a>
                 <a href="https://www.airbnb.ca/help/home?from=footer" target="_blank">Report a neighbourhood concern</a>
             </div>
+            <hr className='solid'></hr>
             <div className='footer-content'>
                 <p>Community</p>
                 <a href="https://www.airbnb.ca/help/home?from=footer" target="_blank">Airbnb.org: disaster relief housing</a>
                 <a href="https://www.airbnb.ca/help/home?from=footer" target="_blank">Support Afghan refugees</a>
                 <a href="https://www.airbnb.ca/help/home?from=footer" target="_blank">Combating discrimination</a>
             </div>
+            <hr className='solid'></hr>
             <div className='footer-content'>
                 <p>Hosting</p>
                 <a href="https://www.airbnb.ca/help/home?from=footer" target="_blank">Try hosting</a>
@@ -28,6 +30,7 @@ export default function Footer() {
                 <a href="https://www.airbnb.ca/help/home?from=footer" target="_blank">Visit our community forum</a>
                 <a href="https://www.airbnb.ca/help/home?from=footer" target="_blank">How to host responsibly</a>
             </div>
+            <hr className='solid'></hr>
             <div className='footer-content'>
                 <p>Airbnb</p>
                 <a href="https://www.airbnb.ca/help/home?from=footer" target="_blank">Newsroom</a>
@@ -41,6 +44,9 @@ export default function Footer() {
         <hr className='footer-divider'></hr>
 
         <div className='footer-terms'>
+            <div className='foooter-credits'>
+                <p>© 2022 Created by Alex Trieu</p>
+            </div>
             <div>
                 <ul className='footer-tos'>
                     <li>© 2022 Created by Alex Trieu</li>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation } from "react-router-dom";
 import Navigation from './Navigation.js';
+import RedirectToHomePage from '../Room Listing/RedirectToHomePage.js';
 import CheckInDetails from '../Room Listing/CheckInDetails.js';
 import AirCover from '../Room Listing/Policies/AirCover.js';
 import ListingDescription from '../Room Listing/ListingDescription.js';
@@ -88,8 +89,8 @@ export default function Room() {
   return (
     <>
     <div className='main-container'>
-      <Navigation />
-      
+      {/* <Navigation /> */}
+      <RedirectToHomePage />
       <div className='listing-main-title'>{title}</div>
       <ListingInfo data={location.state.props.listing}/>
 

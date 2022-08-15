@@ -16,8 +16,10 @@ function Feed({ title }) {
     <>
       <div className="main-feed-container">
         <Navigation />
-        <main className='listing-container'>
-          {cardElements}
+        <main>
+          <section className='listing-container'>
+            {cardElements}
+          </section>
         </main>
       </div>
       <Footer />
