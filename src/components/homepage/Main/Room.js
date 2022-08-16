@@ -96,17 +96,25 @@ export default function Room() {
     window.addEventListener("resize", updateMedia);
     return () => window.removeEventListener("resize", updateMedia);
   });
+
   return (
     <>
     <div className='main-container'>
       {isDesktop ? <Navigation/> : <RedirectToHomePage />}
-      <div className='listing-main-title'>{title}</div>
-      <ListingInfo data={location.state.props.listing}/>
-
-      <div className='listing-gallery'>
-        {imgElements}
-        {showGalleryModal ? <ListingGalleryModal setShowGalleryModal={setShowGalleryModal} img={img} additionalImages={additionalImages}/> : null}
+      <div className='listing-hero'>
+        <div className='listing-main-title-container'>
+          <div className='listing-main-title'>{title}</div>
+          <ListingInfo data={location.state.props.listing}/>
+        </div>
+        {isDesktop ? 
+        <div className='listing-gallery'>
+          {imgElements}
+          {showGalleryModal ? <ListingGalleryModal setShowGalleryModal={setShowGalleryModal} img={img} additionalImages={additionalImages}/> : null}
+        </div> : 
+          <img src={img[0].url} className='listing-main-image'/> 
+      }
       </div>
+      
 
       {/* New Start */}
       <div className='listing-wrapper'>

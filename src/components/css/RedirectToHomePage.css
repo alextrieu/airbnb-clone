@@ -1,5 +1,5 @@
 .redirect-container {
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +16,7 @@
 
 .redirect-icons {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 
 }
 
