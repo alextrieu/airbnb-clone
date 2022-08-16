@@ -86,11 +86,20 @@ export default function Room() {
     document.title = title;
   }, [title]);
 
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 700);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 800);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
   return (
     <>
     <div className='main-container'>
-      {/* <Navigation /> */}
-      <RedirectToHomePage />
+      {isDesktop ? <Navigation/> : <RedirectToHomePage />}
       <div className='listing-main-title'>{title}</div>
       <ListingInfo data={location.state.props.listing}/>
 
