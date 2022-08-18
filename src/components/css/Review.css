@@ -33,6 +33,7 @@
 .review-rating-wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .review-rating-bar-container {
@@ -48,7 +49,6 @@
 
 .testimonial-box {
     width: 500px;
-    /* height: 200px; */
     min-height: 200px;
 
     /* flex */
@@ -126,3 +126,9 @@
     cursor: pointer;
     margin-top: -40px;
 }
+
+@media screen and (max-width: 800px) {
+    .review-rating-border { 
+      width: 150px;
+    }
+  }

@@ -98,9 +98,16 @@
 
 @media screen and (max-width: 992px) {
     .remove {
-        display: none;
+      display: none;
     }
     .amenities-grid {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 800px) {
+  .amenities-btn-modal {
+    width: 100%;
+  }
+}
+

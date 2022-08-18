@@ -119,6 +119,7 @@ export default function Room() {
       {/* New Start */}
       <div className='listing-wrapper'>
         <div className='left-side-content'>
+        <hr className='hero-divider'></hr>
           <ListingHeader data={location.state.props.listing}/>
           <hr></hr>
           {/* Insert Component */}

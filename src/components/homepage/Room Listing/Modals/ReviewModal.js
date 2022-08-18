@@ -69,23 +69,24 @@ export default function ReviewModal({ setShowModal, reviews }) {
             <div className='modal-listing-review'>
               <div className='modal-review-rating'>
                 <span><i className="fa-solid fa-star"></i> {averageRating}</span><span> &bull; {numberOfReviews} reviews</span>
+                <button onClick={() => setShowModal(false)}><i class="fa-solid fa-arrow-left"></i></button>
               </div>
-                <div className='modal-category-reviews'>
-                  <CategoryReviews reviews={reviews}/>
-                </div>
-            </div>
-            <div className='modal-customer-reviews'>
-            <form action="/action_page.php">
+              <form action="/action_page.php">
                 <div className="input-container">
                     <input type="search" id="review-search" name="review-search" placeholder='Search Reviews'></input>
                     <i className="fa-solid fa-magnifying-glass modal-search-icon"></i>
                 </div>
-            </form>
-
-                {customerReviewElements}
+              </form>
+            </div>
+            <div className='modal-review-container'>
+              <div className='modal-category-reviews'>
+                  <CategoryReviews reviews={reviews}/>
+              </div>
+              <div className='modal-customer-reviews'>
+                  {customerReviewElements}
+              </div>
             </div>
             {/* {customerReviewElements} */}
-            <button onClick={() => setShowModal(false)}>X</button>
           </div>
         </div>,
         document.getElementById("portal")

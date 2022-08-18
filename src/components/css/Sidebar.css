@@ -100,3 +100,9 @@
   } 
 
 /* End */
+
+@media screen and (max-width: 800px) {
+    .sidebar-container {
+        display: none;
+    }
+}

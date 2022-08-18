@@ -13,27 +13,22 @@
 
   .review-modal-container > .modal {
     z-index: 1;
-    /* width: 350px;
-    height: 220px; */
-    width: 70%;
+    width: 80%;
     max-width: 1000px;
     height: 90%;
     background: white;
     border-radius: 15px;
     position: relative;
     animation: animate 0.3s;
-    /* Flexbox */
     display: flex;
-    gap: 100px;
-    /* Container layout */
     padding: 70px 20px 30px 20px;
-
+    flex-direction: column;
   }
 
   .modal button {
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: 10px;
+    left: 15px;
     padding: 8px 11px;
     color: black;
     font-weight: bold;
@@ -54,20 +49,18 @@
     }
   }
 
-
-/* .modal-listing-review, .modal-customer-reviews {
-    border: 1px solid black;
-} */
-
 .modal-listing-review {
-    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-review-container {
+    overflow: hidden;
 }
 
 .modal-customer-reviews {
-    flex-grow: 1;
-    overflow: scroll;
+  overflow: scroll;
 }
-
 
 /* Customer Reviews */
 .modal-testimonial-box {
@@ -109,7 +102,6 @@
 #review-search {
     width: 90%;
     height: 40px;
-    margin-bottom: 20px;
     border-radius: 20px;
     border: 1px solid gray;
     padding-left: 40px;
@@ -117,6 +109,8 @@
 
 .input-container {
     position: relative;
+    min-width: 500px;
+    margin-bottom: 30px;
 }
 
 .modal-search-icon {
@@ -130,7 +124,7 @@
 
 /* Flex */
 .modal-category-reviews {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -142,3 +136,72 @@
   display: flex;
   gap: 10px;
 }
+
+.modal-review-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1000px) {
+  .review-modal-container > .modal {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    position: relative;
+    gap: 0px;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  .input-container {
+    margin-top: 20px;
+    min-width: 400px;
+    width: 98%;
+  }
+
+  .modal-listing-review, #review-search {
+    width: 100%;
+  }
+
+  .modal-listing-review {
+    position: fixed;
+    top: 0;
+    width: 95%;
+    background-color: white;
+    z-index: 1;
+    padding-top: 40px;
+    display: block;
+  }
+
+  .modal-category-reviews {
+    margin-top: 0px;
+  }
+
+  .review-rating-border { 
+    width: 200px;
+  }
+
+  .modal-customer-reviews {
+    margin-top: 20px;
+  }
+
+  .modal-testimonial-box {
+    width: 100%;
+  }
+
+  .modal-review-container {
+    flex-grow: 1;
+    padding-top: 90px;
+    display: block;
+    overflow: visible;
+  }
+
+  .modal button {
+    top: 0px;
+    left: -5px;
+  }
+}
+
+
