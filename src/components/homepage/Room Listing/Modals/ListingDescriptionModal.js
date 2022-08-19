@@ -9,6 +9,7 @@ export default function ListingDescriptionModal({ setShowModal }) {
             setShowModal(false)
         }
     }
+
     return ReactDom.createPortal(
         <div className="ld-modal-container" ref={modalRef} onClick={(e) => closeModal(e)}>
           <div className="ld-modal">

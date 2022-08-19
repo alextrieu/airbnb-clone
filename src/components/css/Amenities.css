@@ -103,6 +103,13 @@
     .amenities-grid {
       grid-template-columns: 1fr;
     }
+
+    .amenities-modal-container .amenities-modal {
+      width: 100%;
+      max-width: 1000px;
+      height: 100%;
+      border-radius: 0px;
+    }
 }
 
 @media screen and (max-width: 800px) {

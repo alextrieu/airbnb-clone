@@ -79,3 +79,20 @@
     position: absolute;
     margin-left: -20px; 
   }
+
+  @media screen and (max-width: 1000px) { 
+    .ld-modal-container .ld-modal {
+      z-index: 1;
+      width: 100%;
+      max-width: 1000px;
+      height: 100%;
+      background: white;
+      border-radius: 0px;
+      position: relative;
+      animation: animate 0.3s;
+      padding: 30px;
+      overflow: auto;
+      padding: 70px 30px 30px 30px;
+    }
+
+  }
