@@ -11,14 +11,14 @@ export default function Modal({ setShowModal }) {
     }
 
     return ReactDom.createPortal(
-        <div className="modal-container" ref={modalRef} onClick={(e) => closeModal(e)}>
-          <div className="modal">
+        <div className="ac-modal-container" ref={modalRef} onClick={(e) => closeModal(e)}>
+          <div className="ac-modal">
             <div className='modal-header'>
                 <img src="https://a0.muscache.com/im/pictures/54e427bb-9cb7-4a81-94cf-78f19156faad.jpg"/>
                 <p>AirCover is comprehensive protection included for free with every booking.</p>
             </div>
             <hr></hr>
-            <div className='modal-grid'>
+            <div className='ac-modal-grid'>
                 <div className='modal-grid-items'>
                     <h3>Booking Protection Guarantee</h3>
                     <p>In the unlikely event a Host needs to cancel your booking within 30 days of check-in, we’ll find you a similar or better home, or we’ll refund you.</p>
@@ -37,7 +37,7 @@ export default function Modal({ setShowModal }) {
                 </div>
             </div>
             <span className='modal-footer'>Find complete details on how AirCover protects your booking in our <a target="_blank" href="https://www.airbnb.com/help/article/3218">Help Center</a></span>
-            <button onClick={() => setShowModal(false)}>X</button>
+            <button className="air-cover-btn" onClick={() => setShowModal(false)}>X</button>
           </div>
         </div>,
         document.getElementById("portal")

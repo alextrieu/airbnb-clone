@@ -161,14 +161,18 @@
     width: 98%;
   }
 
-  .modal-listing-review, #review-search {
+  .modal-listing-review {
     width: 100%;
+  }
+
+  #review-search {
+    width: 97%;
   }
 
   .modal-listing-review {
     position: fixed;
     top: 0;
-    width: 95%;
+    width: 100%;
     background-color: white;
     z-index: 1;
     padding-top: 40px;

@@ -1,4 +1,4 @@
-#portal .modal-container {
+#portal .ac-modal-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@
     background: rgba(0, 0, 0, 0.7);
   }
 
-  .modal-container .modal {
+  .ac-modal-container .ac-modal {
     z-index: 1;
     width: 70%;
     max-width: 1000px;
@@ -23,7 +23,7 @@
     padding: 30px;
   }
 
-  .modal button {
+  .ac-modal button {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -57,7 +57,7 @@
     height: 30px;
   }
 
-  .modal-grid {
+  .ac-modal-grid {
       margin-top: 30px;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -65,4 +65,24 @@
       grid-column-gap: 40px;
       margin-bottom: 30px;
   }
-  
+  @media screen and (max-width: 1000px) {
+
+    .ac-modal-container > .ac-modal {
+      width: 100%;
+      max-width: 1000px;
+      height: 100%;
+      top: 10px;
+      background: white;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      overflow: scroll;
+      position: relative;
+    }
+
+    .ac-modal-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+  }
