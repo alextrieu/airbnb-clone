@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useMediaQuery } from 'react-responsive';
 import { useLocation } from "react-router-dom";
 import Navigation from './Navigation.js';
 import RedirectToHomePage from '../Room Listing/RedirectToHomePage.js';
@@ -26,7 +27,7 @@ import { addDays, setDate } from 'date-fns';
 
 
 export default function Room() {
-
+  const isMobile = useMediaQuery({ query: `(max-width: 1150px)` });
   // Calendar
   
   const [dates, setDates] = useState([
@@ -136,7 +137,7 @@ export default function Room() {
               moveRangeOnFirstSelection={false}
               months={2}
               ranges={dates}
-              direction="horizontal"
+              direction={isMobile ? "vertical" : "horizontal"}
               showDateDisplay={false}
               staticRanges={[]}
               inputRanges={[]}
