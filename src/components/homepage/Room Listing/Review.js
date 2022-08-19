@@ -90,8 +90,9 @@ export default function Review({ reviews }) {
 
       <div className='testimonial-box-container'>
         {testimonialElements}
-        <button className='display-modal-reviews' onClick={openModal}>Show all {numberOfReviews} reviews</button>
       </div>
+      <button className='display-modal-reviews' onClick={openModal}>Show all {numberOfReviews} reviews</button>
+
       <hr></hr>
     </div>
   )
