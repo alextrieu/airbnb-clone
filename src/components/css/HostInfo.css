@@ -12,9 +12,9 @@
     gap: 20px;
 }
 
-.host-left-side-container p {
+/* .host-left-side-container p {
     width: 450px;
-}
+} */
 
 .testimonial-box-heading {
     margin-top: 40px;
@@ -29,6 +29,7 @@
 .host-records {
     width: 275px;
     display: flex;
+    gap: 10px;
 }
 
 .host-languages::after {
@@ -63,4 +64,38 @@
 .host-warning i {
     align-self: center;
     font-size: 1.5rem;
+}
+
+.host-personal-message h4 {
+    margin-bottom: 7px;
+}
+
+@media screen and (max-width: 800px) {
+    .host-info-container {
+        gap: 40px;
+    }
+
+    .host-info-container, .host-records {
+        flex-direction: column;
+    }
+
+    .host-info-container, .host-warning, .customer-profile {
+        display: flex;
+    }
+
+    .host-title-name {
+        display: none;
+    }
+
+    .customer-profile {
+        justify-content: space-between;
+    }
+
+    .customer-profile-pic, .host-warning-icon {
+        order: 2;
+    }
+
+    .host-contact-btn, .host-info-container, .host-warning p {
+        width: 100%;
+    } 
 }

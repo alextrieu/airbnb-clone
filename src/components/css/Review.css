@@ -21,7 +21,7 @@
     background-color: black;
 }
 
-.review-rating-container, .testimonial-box-container {
+.testimonial-box-container, .review-rating-container {
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -29,6 +29,7 @@
     grid-column-gap: 100px;
     margin-bottom: 40px;
 }
+
 
 .review-rating-wrapper {
     display: flex;
@@ -93,7 +94,7 @@
 }
 
 .testimonial-comment p {
-    width: 90%;
+    width: 95%;
 }
 
 .testimonial-comment-modal {
@@ -125,6 +126,7 @@
     background: white;
     cursor: pointer;
     margin-top: -40px;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -132,12 +134,13 @@
       width: 150px;
     }
 
-    .all-reviews {
+    .review-rating-wrapper {
         display: none;
     }
 
     .review-rating-container, .testimonial-box-container {
         margin-top: 0px;
+        grid-column-gap: 20px;
     }
 
     .review-rating-container {
@@ -148,15 +151,19 @@
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
-       
     }
 
     .testimonial-box {
+        margin-top: 20px;
         flex: 0 0 auto;
+        border: 1px solid gray;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        width: 400px;
     }
 
     .display-modal-reviews {
         width: 100%;
-        margin-bottom: 2rem;
     }
 }

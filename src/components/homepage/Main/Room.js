@@ -132,16 +132,18 @@ export default function Room() {
           <div className='date-range-container'>
             <h2>{startDate === endDate ? "Select checkout date" : differenceInDays + " nights in " + city}</h2>
             <p>{startDate === endDate ? "Minimum stay: 2 nights" : startDate + " - " + endDate}</p>
-            <DateRangePicker
-              onChange={item => setDates([item.selection])}
-              moveRangeOnFirstSelection={false}
-              months={2}
-              ranges={dates}
-              direction={isMobile ? "vertical" : "horizontal"}
-              showDateDisplay={false}
-              staticRanges={[]}
-              inputRanges={[]}
-            />
+            <div className='date-range-wrapper'>
+              <DateRangePicker
+                onChange={item => setDates([item.selection])}
+                moveRangeOnFirstSelection={false}
+                months={2}
+                ranges={dates}
+                direction={isMobile ? "vertical" : "horizontal"}
+                showDateDisplay={false}
+                staticRanges={[]}
+                inputRanges={[]}
+              />
+            </div>
           </div>{/* end date-range-container */}
         </div> {/* Left Side*/}
 

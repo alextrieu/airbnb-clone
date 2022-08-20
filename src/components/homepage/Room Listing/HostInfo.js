@@ -14,7 +14,7 @@ export default function HostInfo({ data }) {
               <img src={data.hostPP}></img>
             </div>
             <div className='customer-name-date'>
-              <p>Hosted by {data.host}</p>
+              <h4>Hosted by {data.host}</h4>
               <p>Joined in {data.dateJoined.month} {data.dateJoined.year}</p>
             </div>
           </div>
@@ -28,11 +28,12 @@ export default function HostInfo({ data }) {
                         verification ? <p><i className="fa-regular fa-circle-check fa-icon"></i> Identity verified</p> : null
                     }
                 </div>
-                <div>
+                <div className='host-title-name'>
                     <p>{data.host}</p>
                     <p>Home management</p>
                 </div>
-                <div>
+                <div className='host-personal-message'>
+                    <h4>During your stay</h4>
                     <p>Vacasa unlocks the possibilities of how we enjoy vacation homes. We take care of managing our homeowners’ vacation houses so they can have peace of mind (and their home when they want to). And our guests book vacations confidently knowing they’re going to find exactly what they’re looking for without any surprises.</p>
                 </div>
             </div>
@@ -56,7 +57,7 @@ export default function HostInfo({ data }) {
                     <button className='host-contact-btn' onClick={() => navigate('/contact_host/' + data.id, { state: { data } })}>Contact Host</button>
                 </div>
                 <div className='host-warning'>
-                <i className="fa-solid fa-ribbon"></i><p>To protect your payment, never transfer money or communicate outside of the Airbnb website or app.</p>
+                    <i className="fa-solid fa-ribbon host-warning-icon"></i><p>To protect your payment, never transfer money or communicate outside of the Airbnb website or app.</p>
                 </div>
 
             </div>

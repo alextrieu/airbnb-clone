@@ -85,7 +85,7 @@ export default function CategoryReviews({ reviews }) {
 
 
   return (
-    <div className='all-reviews'> 
+    <> 
         <div className='review-rating-wrapper' key={uuidv4()}>
           <div className='review-rating-title'>
             <p>Cleanliness</p>
@@ -182,6 +182,6 @@ export default function CategoryReviews({ reviews }) {
             </div>
           </div>
         </div>
-    </div>
+    </>
   )
 }
