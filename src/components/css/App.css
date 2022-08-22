@@ -41,6 +41,14 @@
     margin-right: 6px;
 }
 
+.review-show-more-link {
+    position: relative;
+}
+
+.fa-greater-than::before {
+    position: absolute;
+    left: 5px;
+}
 /* Date Picker */
 
 .rdrDefinedRangesWrapper {

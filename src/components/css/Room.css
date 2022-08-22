@@ -224,4 +224,8 @@
         display: block;
         margin-bottom: 20px;
     }
+
+    .listing-main-image {
+        cursor: pointer;
+    }
 }

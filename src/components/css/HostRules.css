@@ -9,10 +9,13 @@
 }
 
 .host-rules {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 13px;
+  margin-top: 1rem;
+}
+
+.header_items {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
 }
 
 .host-rules p {
@@ -146,3 +149,31 @@
 .cancellation-policy-link {
     color: black;
 }
+
+
+  .host-rules-container {
+    flex-direction: column;
+  }
+
+  .host-rules-title {
+    display: none;
+  }
+
+  .host-rules {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .review-show-more-link {
+    align-self: center;
+    position: relative;
+  }
+
+  .display-modal-icon {
+    position: absolute;
+    left: -10px;
+  }
+
+  .rules_dividers {
+    margin-top: 20px;
+  }

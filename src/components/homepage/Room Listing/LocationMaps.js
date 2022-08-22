@@ -16,16 +16,16 @@ export default function LocationMaps( { listing }) {
 
   return (
     <>
-    <div className='location-title'>
-      <h1>Where you'll be</h1>
-      <p>{listing.city}, {listing.state}, {listing.country}</p>
-    </div>
-    <div className='map-container'>
-        <CustomMap style={style}/>
-    </div>
-    <p onClick ={openModal} className='review-show-more-link location-display-more'>Show More<i className="fa-solid fa-greater-than"></i></p>
-    {showModal ? <LocationMapsModal setShowModal={setShowModal}/> : null}
-    <hr></hr>
+      <div className='location-title'>
+        <h1>Where you'll be</h1>
+        <p>{listing.city}, {listing.state}, {listing.country}</p>
+      </div>
+      <div className='map-container'>
+          <CustomMap style={style}/>
+      </div>
+      <p onClick ={openModal} className='review-show-more-link location-display-more'>Show More<i className="fa-solid fa-greater-than"></i></p>
+      {showModal ? <LocationMapsModal setShowModal={setShowModal}/> : null}
+      <hr></hr>
     </>
   )
 }

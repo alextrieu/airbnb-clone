@@ -89,3 +89,12 @@
     gap: 200px;
     width: 100%;
 }
+
+
+@media screen and (max-width: 800px) { 
+  .location-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}

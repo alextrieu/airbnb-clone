@@ -107,13 +107,14 @@ export default function Room() {
           <div className='listing-main-title'>{title}</div>
           <ListingInfo data={location.state.props.listing}/>
         </div>
-        {isDesktop ? 
+        {
+          isDesktop ? 
         <div className='listing-gallery'>
           {imgElements}
           {showGalleryModal ? <ListingGalleryModal setShowGalleryModal={setShowGalleryModal} img={img} additionalImages={additionalImages}/> : null}
         </div> : 
-          <img src={img[0].url} className='listing-main-image'/> 
-      }
+          <img src={img[0].url} className='listing-main-image' onClick={openModal}/> 
+        }
       </div>
       
 
