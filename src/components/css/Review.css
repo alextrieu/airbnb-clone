@@ -152,11 +152,17 @@
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;
+    }
+
+    .testimonial-box-container::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
     }
 
     .testimonial-box {
-        margin-top: 20px;
         flex: 0 0 auto;
+        margin-top: 20px;
         border: 1px solid gray;
         border-radius: 15px;
         padding-left: 10px;
