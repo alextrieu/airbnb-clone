@@ -20,6 +20,7 @@
 
 .host-rules p {
     max-width: 350px;
+    margin-top: 10px;
 }
 
 .host-rules a {
@@ -150,6 +151,8 @@
     color: black;
 }
 
+@media screen and (max-width: 900px) {
+
 
   .host-rules-container {
     flex-direction: column;
@@ -177,3 +180,5 @@
   .rules_dividers {
     margin-top: 20px;
   }
+
+}
