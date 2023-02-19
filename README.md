@@ -127,7 +127,7 @@ This project is licensed under the MIT License.
 
 ## Copyright
 
-- We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Airbnb, or any of its subsidiaries or its affiliates. The official Airbnb website can be found at http://www.airbnb.com
+We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Airbnb, or any of its subsidiaries or its affiliates. The official Airbnb website can be found at http://www.airbnb.com
 
 The names Airbnb as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
