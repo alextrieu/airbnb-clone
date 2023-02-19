@@ -133,8 +133,8 @@ export const listings = [
       idVerification: true,
       superHost: true,
       languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
-      price: 705,
-      rating: 4.98,
+      price: 505,
+      rating: 4.48,
       amenities: [
         {
           scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
@@ -199,7 +199,7 @@ export const listings = [
     {  
       id: uuidv4(),
       title: 'Upscale lakefront house with stunning views & dock - spacious interior with fireplace',
-      city: 'Chelan',
+      city: 'Glacier',
       reviews: [
         {
           id: "Alexander",
@@ -329,8 +329,8 @@ export const listings = [
       idVerification: true,
       superHost: true,
       languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
-      price: 705,
-      rating: 4.98,
+      price: 105,
+      rating: 4.48,
       amenities: [
         {
           scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
@@ -395,7 +395,7 @@ export const listings = [
     {  
       id: uuidv4(),
       title: 'Upscale lakefront house with stunning views & dock - spacious interior with fireplace',
-      city: 'Chelan',
+      city: 'Deming',
       reviews: [
         {
           id: "Alexander",
@@ -525,8 +525,8 @@ export const listings = [
       idVerification: true,
       superHost: true,
       languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
-      price: 705,
-      rating: 4.98,
+      price: 410,
+      rating: 4.18,
       amenities: [
         {
           scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
@@ -591,7 +591,7 @@ export const listings = [
     {  
       id: uuidv4(),
       title: 'Upscale lakefront house with stunning views & dock - spacious interior with fireplace',
-      city: 'Chelan',
+      city: 'Blaine',
       reviews: [
         {
           id: "Alexander",
@@ -721,8 +721,8 @@ export const listings = [
       idVerification: true,
       superHost: true,
       languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
-      price: 705,
-      rating: 4.98,
+      price: 455,
+      rating: 4.38,
       amenities: [
         {
           scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
@@ -787,7 +787,7 @@ export const listings = [
     {  
       id: uuidv4(),
       title: 'Upscale lakefront house with stunning views & dock - spacious interior with fireplace',
-      city: 'Chelan',
+      city: 'Granite Falls',
       reviews: [
         {
           id: "Alexander",
@@ -917,8 +917,8 @@ export const listings = [
       idVerification: true,
       superHost: true,
       languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
-      price: 705,
-      rating: 4.98,
+      price: 355,
+      rating: 4.78,
       amenities: [
         {
           scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
@@ -983,7 +983,7 @@ export const listings = [
     {  
       id: uuidv4(),
       title: 'Upscale lakefront house with stunning views & dock - spacious interior with fireplace',
-      city: 'Chelan',
+      city: 'Index',
       reviews: [
         {
           id: "Alexander",
@@ -1113,8 +1113,8 @@ export const listings = [
       idVerification: true,
       superHost: true,
       languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
-      price: 705,
-      rating: 4.98,
+      price: 125,
+      rating: 4.78,
       amenities: [
         {
           scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
@@ -1179,7 +1179,7 @@ export const listings = [
     {  
       id: uuidv4(),
       title: 'Upscale lakefront house with stunning views & dock - spacious interior with fireplace',
-      city: 'Chelan',
+      city: 'Leavenworth',
       reviews: [
         {
           id: "Alexander",
@@ -1309,8 +1309,8 @@ export const listings = [
       idVerification: true,
       superHost: true,
       languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
-      price: 705,
-      rating: 4.98,
+      price: 385,
+      rating: 4.50,
       amenities: [
         {
           scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']
@@ -1375,7 +1375,7 @@ export const listings = [
     {  
       id: uuidv4(),
       title: 'Upscale lakefront house with stunning views & dock - spacious interior with fireplace',
-      city: 'Chelan',
+      city: 'Coupeville',
       reviews: [
         {
           id: "Alexander",
@@ -1505,8 +1505,8 @@ export const listings = [
       idVerification: true,
       superHost: true,
       languages: ["Nederlands", "English", "Français", "Deutsch", "Italiano", "Português", "Español"],
-      price: 705,
-      rating: 4.98,
+      price: 250,
+      rating: 4.28,
       amenities: [
         {
           scenicViews: ['Garden view', 'Lake view', 'Mountain view', 'Pool view']

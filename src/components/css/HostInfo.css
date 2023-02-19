@@ -46,6 +46,7 @@
     border: 1px solid black;
     outline: none;
     background: white;
+    cursor: pointer;
 }
 
 .host-contact-btn:hover {
