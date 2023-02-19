@@ -13,6 +13,7 @@ export default function () {
       <div className='air-cover-container'>
         <img src="https://a0.muscache.com/im/pictures/54e427bb-9cb7-4a81-94cf-78f19156faad.jpg"/>
         <p>Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.</p>
+        <p onClick={() =>  navigator.clipboard.writeText('Hello')}>Copy</p>
         <a onClick={openModal}>Learn more</a>
         {showModal ? <AirCoverModal setShowModal={setShowModal}/> : null}
       </div>
